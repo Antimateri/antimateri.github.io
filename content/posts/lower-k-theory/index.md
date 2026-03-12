@@ -164,7 +164,7 @@ Let $R$ be a ring. We define the $K_1$-group of a $R$ as the abelian group gener
 
 For any commutative diagram of finitely generated projective $R$-modules of the following form:
 
-<img src="/lower-K-Theory/images/sumk1.webp" style="width: 35%;" />
+<img src="/posts/lower-K-Theory/images/sumk1.webp" style="width: 35%;" />
 
 we have that
 $$[f_2]=[f_1]+[f_3].$$
@@ -183,7 +183,7 @@ $$
 
 It can be shown that $[f_1\circ f_3]=[f_1] + [f_3]$ for $f_1,f_3:P_1\to P_1$ automorphisms of finitely generated projective $R$-modules. Indeed, consider the conmutative diagram
 
-<img src= "/lower-K-Theory/images/remarksumk1.webp" style="width: 35%;" />
+<img src= "/posts/lower-K-Theory/images/remarksumk1.webp" style="width: 35%;" />
 
 then by $P_1, P_2$ being finitely generated projective $R$-modules, the sequences split and $P_2=P_1^2$ so
 $$
@@ -336,7 +336,7 @@ There is still one final result relating $K$ groups of diferent dimensions:
 
 {{<mathdef type="Theorem" name="Mayer-Vietoris sequence for 𝐾-theory in degree ≤ 2" id="Mayer-Vietoris">}}
 Consider a pullback of rings
-<img src="/lower-K-Theory/images/mayervietoris.webp" style="width: 15%;" />
+<img src="/posts/lower-K-Theory/images/mayervietoris.webp" style="width: 15%;" />
 such that $j_1$ and $j_2$ are surjective, then the following sequence is exact:
 $$
 \begin{aligned}

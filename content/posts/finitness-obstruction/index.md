@@ -10,7 +10,7 @@ publishDate: "2026-03-09"
 series:
   - Topological K-theory
 prerequisites:
-  - "/lower-K-theory/lower-K-theory.md"
+  - "/posts/lower-k-theory/index.md"
 #  - "/blog/abouttheme.md"
 #syndicate:
 #  - "https://example.org"
@@ -19,6 +19,8 @@ audio: []
 videos: []
 images: []
 ---
+ 
+<a href="/posts/lower-k-theory"> link </a>
 
 # Introduction
 
@@ -229,7 +231,7 @@ There are also finitely dominated spaces that are not homotopy equivalent to a f
 
 {{< mathdef type="Example">}}
 Consider the group $\mathbb{Z}/12$. By the 
-<a href="/lower-k-theory/lower-k-theory/#tildeK0FiniteAbelian" > Finite abelian groups with vanishing $\tilde{K_0}(\mathbb{Z}G)$ theorem </a> 
+<a href="/posts/lower-k-theory/#tildeK0FiniteAbelian" > Finite abelian groups with vanishing $\tilde{K_0}(\mathbb{Z}G)$ theorem </a> 
 we know $\tilde{K_0}(\mathbb{Z}[\mathbb{Z}/12])\neq 0$ and, by Wall's finitness obstruction, for any $e\neq 0\in \tilde{K_0}(\mathbb{Z}[\mathbb{Z}/12])$ there exists a finitely dominated topological space $X$ with fundamental group $\mathbb{Z}/12$ such that $\tilde{o}(X)=e\neq 0$ which implies $X$ is not homotopically equivalent to a finite CW-complex.
 {{< /mathdef >}}
 <!--![image](/blog/page_001.webp)-->
