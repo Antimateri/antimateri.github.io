@@ -4,7 +4,6 @@ description: "Using the whitehead group we want to determine if a homotopy equiv
 tags:
   - K-theory
   - Algebraic topology
-  - Mathematics
 date: "2026-03-12"
 publishDate: "2026-03-12"
 series:

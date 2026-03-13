@@ -4,7 +4,6 @@ description: "Using the projective class group and Wall's finiteness obstruction
 tags:
   - K-theory
   - Algebraic topology
-  - Mathematics
 date: "2026-03-09"
 publishDate: "2026-03-09"
 series:

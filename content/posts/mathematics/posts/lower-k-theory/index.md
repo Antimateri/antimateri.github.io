@@ -4,7 +4,6 @@ description: "Introduction to the algebraic concepts of lower K-theory and techn
 tags:
   - K-theory
   - Commutative algebra
-  - Mathematics
 date: "2026-03-08"
 publishDate: "2026-03-08"
 series:
