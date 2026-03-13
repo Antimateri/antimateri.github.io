@@ -57,13 +57,13 @@ SectionPagesMenu = "main"
 [[menu.other]]
   name = "Programming"
   weight = -110
-  identifier = "mathematics"
+  identifier = "programming"
   url = "https://antimateri.github.io/programming/"
 
 [[menu.other]]
   name = "Curiosities"
   weight = -100
-  identifier = "mathematics"
+  identifier = "curiosities"
   url = "https://antimateri.github.io/curiosities/"
 
 [taxonomies]
