@@ -103,6 +103,7 @@ SectionPagesMenu = "main"
   mainSections = ['posts']
   email = "pablo.cageaoh@gmail.com"
   github = "Antimateri"
+  subtitle = "Everything"
   #codeberg = "codeberg id"
   #gitlab = "gitlab id"
   #twitter = "twitter id"
