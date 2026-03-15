@@ -175,8 +175,21 @@ Notice that by using the homotopy invariance property we can can define the tors
 
 This last theorem give us the sufficient and necessary condition we were looking for
 
-{{<mathdef type="Theorem" name="Whitehead torsion and simple homotopy equivalences">}}
-Let $f:X\to Y$ be a homotopy equivalence of finite CW-complexes. $f$ is a simple homotopy equivalence if and only if $\tau(f)=0$.
+{{<mathdef type="Theorem" name="Whitehead torsion and simple homotopy equivalences (Theorem 3.44)">}}
+$(i)$ Let $X$ be a finite CW-complex. Then for any element $x \in Wh(\pi_1(X))$ there is an inclusion
+$$
+i: X \to Y
+$$
+of finite CW-complexes such that $i$ is a homotopy equivalence and
+$$
+i_*(\tau(i))=x.
+$$
+
+$(ii)$ Let $f: X \to Y$ be a homotopy equivalence of finite CW-complexes. Then its Whitehead torsion
+$$
+\tau(f) \in Wh(\pi_1(Y))
+$$
+vanishes if and only if $f$ is a simple homotopy equivalence.
 {{</mathdef>}}
 
 > [!NOTE] TODO: add an example of usage like proving that any homotopy equivalence between spaces with fundamental group $\mathbb{Z}$ is simple.

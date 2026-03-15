@@ -391,6 +391,9 @@ The Whitehead group is usually very hard to compute, nevertheless we are giving 
   $$Wh(\mathbb{Z})=(\{+1,-1\}\times \mathbb{Z})/(\{+1,-1\}\times \mathbb{Z})=0.$$
 {{</mathdef>}}
 
+# Negative K-Theory
+
+The previous 2 $K$-groups will be the more relevantly used for our projects, 
 
 # References
  - [Isomorphism Conjectures in K- and L-Theory](https://doi.org/10.1007/978-3-031-98976-6)
