@@ -255,6 +255,8 @@ If $R$ is a regular ring, then
 $$NK_n(R) = \{0\} \qquad \text{for } n \in \mathbb{Z};$$
 {{</mathdef>}}
 
+< [!NOTE] I may define what regular means at some point but it is enough to know $\mathbb{Z}$ is regular to follow this post.>
+
 {{<mathdef type="Theorem" name="Vanishing of $NK_n(\mathbb{Z}[G \times \mathbb{Z}^k])$ for $n \le 1$, $k \ge 0$ and finite $G$ of square-free order">}}
 Let $G$ be a finite group whose order is square-free. Then
 $$
@@ -393,7 +395,56 @@ The Whitehead group is usually very hard to compute, nevertheless we are giving 
 
 # Negative K-Theory
 
-The previous 2 $K$-groups will be the more relevantly used for our projects, 
+The previous 2 $K$-groups will be the more relevantly used for our projects, but we can extend the definition to $K$-groups of negative integers which algebraically are here for the shake of completeness but can be used to classify certain topological objects.
+
+## Definition
+
+There is a direct relation between $K_1$  and $K_0$ given by the following theorem:
+
+{{< mathdef type="Theorem" name="Relation between $K_1$ and $K_0$" >}}
+For every ring $R$ we have the following isomorphism:
+$$K_0(R)\cong coker(K_1(R)\to K_1(R[t])).$$
+{{< /mathdef >}}
+
+This comes as a corollary of the Bass-Heller-Swan decomposition and can be used to extend the definition of $K$-groups to negative integers:
+
+{{< mathdef type="Definition" name="Negative K-theory" >}}
+Let $R$ be a ring. For every $n\in \mathbb{N}$ we define $K_{-n}(R)$ as the cokernel of the group homomorphism
+$$K_{-n}(R):=coker(K_{-n+1}(R)\to K_{-n+1}(R[t]))$$
+{{< /mathdef >}}
+
+This definition as the rest of $K$-theory is functorial and defines a functor from the category of rings to the category of abelian groups. I will let you check that this is indeed the case.
+
+## Calculation
+
+All the theorems described in the previous sections applying to $K_n$ for $n \in \mathbb{Z}$ can be (obviously) applied to negative $K$-groups. There is nevertheless a couple of results that are more specific to negative $K$-groups:
+
+{{< mathdef type="Theorem" name="Bass-Heller-Swan decomposition for negative K-groups" >}}
+If $R$ is a regular ring, then $K_{-n}(R) = \{0\}$ for $n\leq -1$.
+{{< /mathdef >}}
+
+Lets see a non-trivial example of the calculation of a negative $K$-group:
+
+{{< mathdef type="Example" name="$K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^k])$ for $n\leq -2$ and $p$ prime" >}}
+
+We want to show that $K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^k])=0$ for $n\leq -2$, $k\geq 0$ and $p$ prime. Using Mayer Vietoris we can write $K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^k])$ as the middle term of the following exact sequence:
+$$\begin{aligned}
+\cdots &\to K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^{k-1}]) \to K_{n}(\mathbb{Z}[\mathbb{Z}^{k}]) \oplus K_{n}(\mathbb{Z}[\exp(2\pi i/p)][\mathbb{Z}^{k}])\\\\ &\to K_{n}(\mathbb{F}_p[\mathbb{Z}^{k}])
+\to K_{n-1}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^{k-1}]) \to \cdots
+\end{aligned}$$
+
+It can be checked (and I advise you to try as it is not difficult) that if $R$ is regular then $K_{n}(R[\mathbb{Z}^k])=0$ for $n\leq -1$ and $k\geq 0$.
+
+By knowing that $\mathbb{Z}$, $\mathbb{F}_p$ and $\mathbb{Z}[\exp(2\pi i/p)]$ are regular we have that $K_{n}(\mathbb{Z}[\mathbb{Z}^{k}])=K_{n}(\mathbb{Z}[\exp(2\pi i/p)][\mathbb{Z}^{k}])=K_n(\mathbb{F}_p[\mathbb{Z}^{k}])=0$ for $n\leq -1$ so by Mayer Vietoris:
+
+$$\cdots \to K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^{k-1}]) \to 0 \oplus 0 \to 0 \to K_{n-1}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^{k-1}]) \to \cdots$$
+
+
+ can then conclude that $K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^k])=0$ for $n\leq -2$, $k\geq 0$ and $p$ prime.
+
+ This example can be extended to $n=-1$ but I will leave that to you as an exercise.
+
+{{< /mathdef >}}
 
 # References
  - [Isomorphism Conjectures in K- and L-Theory](https://doi.org/10.1007/978-3-031-98976-6)
