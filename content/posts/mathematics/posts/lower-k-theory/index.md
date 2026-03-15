@@ -109,6 +109,13 @@ $$\begin{aligned}K_0(\mathbb{Z}[\mathbb{Z}/p]) &\cong K_0(\mathbb{Z}[e^{2\pi i /
 1_{\mathbb{Z}/p} &\mapsto e^{2\pi i / p}\end{aligned}$$
 {{< /mathdef >}}
 
+{{<mathdef type="Theorem" name="Colimits of $K$-theory" >}}
+Let $I$ be a directed set and let $\{R_i\}_{i\in I}$ be a directed system of rings, then for all $n \in \mathbb{Z}$ we have the following group isomorphism:
+$$K_n(colim_{i \in I} R_i) \cong colim_{i \in I} K_n(R_i).$$
+{{< /mathdef >}}
+
+This last theorem is expected to be useful in finding a contradiction to the Farrell-Jones conjecture but this is out of the scope of this post.
+
 ## The reduced projective class group
 
 The reduced projective class group is considerably more interesting when working with algebraic topology. Due to its relation with the projective class group it can be easily defined as follows:
@@ -435,12 +442,12 @@ $$\begin{aligned}
 
 It can be checked (and I advise you to try as it is not difficult) that if $R$ is regular then $K_{n}(R[\mathbb{Z}^k])=0$ for $n\leq -1$ and $k\geq 0$.
 
-By knowing that $\mathbb{Z}$, $\mathbb{F}_p$ and $\mathbb{Z}[\exp(2\pi i/p)]$ are regular we have that $K_{n}(\mathbb{Z}[\mathbb{Z}^{k}])=K_{n}(\mathbb{Z}[\exp(2\pi i/p)][\mathbb{Z}^{k}])=K_n(\mathbb{F}_p[\mathbb{Z}^{k}])=0$ for $n\leq -1$ so by Mayer Vietoris:
+By knowing that $\mathbb{Z}$, $\mathbb{F}_p$ and $\mathbb{Z}[\exp(2\pi i/p)]$ are regular we have that $K_{n}(\mathbb{Z}[\mathbb{Z}^{k}])=K_{n}(\mathbb{Z}[\exp(2\pi i/p)][\mathbb{Z}^{k}])=K_n(\mathbb{F}_p[\mathbb{Z}^{k}])=0$ for $n\leq -1$ so by Mayer Vietoris
 
 $$\cdots \to K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^{k-1}]) \to 0 \oplus 0 \to 0 \to K_{n-1}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^{k-1}]) \to \cdots$$
 
 
- can then conclude that $K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^k])=0$ for $n\leq -2$, $k\geq 0$ and $p$ prime.
+ we can conclude that $K_{n}(\mathbb{Z}[\mathbb{Z}/p\times \mathbb{Z}^k])=0$ for $n\leq -2$, $k\geq 0$ and $p$ prime.
 
  This example can be extended to $n=-1$ but I will leave that to you as an exercise.
 
