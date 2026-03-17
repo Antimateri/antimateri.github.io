@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1773278823 "/home/antimateria/Documents/github/blog/latex_renderer/renderer.tex" "renderer.pdf" "renderer" 1773278824
-  "/dev/null" 1773232707 0 d41d8cd98f00b204e9800998ecf8427e ""
+["pdflatex"] 1773678362 "/home/antimateria/Documents/github/Blog/blog/latex_renderer/renderer.tex" "renderer.pdf" "renderer" 1773678363
+  "/dev/null" 1773678798 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/etc/texmf/web2c/texmf.cnf" 1678048342 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/antimateria/Documents/github/blog/latex_renderer/renderer.tex" 1773278823 438 8a876c53ff6f01ce375bff617ac97b3a ""
+  "/home/antimateria/Documents/github/Blog/blog/latex_renderer/renderer.tex" 1773678362 450 f1d377db2b01e39b71f93e66706c7f19 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -142,8 +142,8 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1729972414 4379155 98693266ff65f58d9f98aff394de12d2 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769864732 2799349 739b0a6d6e509eb566d28732226e5d4a ""
-  "renderer.aux" 1773278824 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "renderer.tex" 1773278823 438 8a876c53ff6f01ce375bff617ac97b3a ""
+  "renderer.aux" 1773678363 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "renderer.tex" 1773678362 450 f1d377db2b01e39b71f93e66706c7f19 ""
   (generated)
   "renderer.aux"
   "renderer.log"

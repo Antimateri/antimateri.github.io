@@ -410,14 +410,14 @@ There is a direct relation between $K_1$  and $K_0$ given by the following theor
 
 {{< mathdef type="Theorem" name="Relation between $K_1$ and $K_0$" >}}
 For every ring $R$ we have the following isomorphism:
-$$K_0(R)\cong coker(K_1(R)\to K_1(R[t])).$$
+$$K_0(R)\cong coker(K_1(R[t])\oplus K_1(R[t^{-1}])\to K_1(R[t, t^{-1}]))$$
 {{< /mathdef >}}
 
 This comes as a corollary of the Bass-Heller-Swan decomposition and can be used to extend the definition of $K$-groups to negative integers:
 
 {{< mathdef type="Definition" name="Negative K-theory" >}}
-Let $R$ be a ring. For every $n\in \mathbb{N}$ we define $K_{-n}(R)$ as the cokernel of the group homomorphism
-$$K_{-n}(R):=coker(K_{-n+1}(R)\to K_{-n+1}(R[t]))$$
+Let $R$ be a ring. For every $n\leq -1$ we define $K_{n}(R)$ as the cokernel of the group homomorphism
+$$K_{n}(R):=coker(K_{n+1}(R[t])\oplus K_{n+1}(R[t^{-1}])\to K_{n+1}(R[t, t^{-1}]))$$
 {{< /mathdef >}}
 
 This definition as the rest of $K$-theory is functorial and defines a functor from the category of rings to the category of abelian groups. I will let you check that this is indeed the case.
@@ -427,7 +427,7 @@ This definition as the rest of $K$-theory is functorial and defines a functor fr
 All the theorems described in the previous sections applying to $K_n$ for $n \in \mathbb{Z}$ can be (obviously) applied to negative $K$-groups. There is nevertheless a couple of results that are more specific to negative $K$-groups:
 
 {{< mathdef type="Theorem" name="Bass-Heller-Swan decomposition for negative K-groups" >}}
-If $R$ is a regular ring, then $K_{-n}(R) = \{0\}$ for $n\leq -1$.
+If $R$ is a regular ring, then $K_{n}(R) = \{0\}$ for $n\leq -1$.
 {{< /mathdef >}}
 
 Lets see a non-trivial example of the calculation of a negative $K$-group:

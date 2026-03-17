@@ -1,6 +1,6 @@
 ---
-title: "Checking if a homotopy equivalenece between finite CW-complexes is simple"
-description: "Using the whitehead group we want to determine if a homotopy equivalence between finite CW-complexes comes from attaching or removing cells in a simple way."
+title: "Stronger versions of homotopy equivalence and how to check them"
+description: "Using the whitehead group we want to determine if a homotopy equivalence between finite CW-complexes can be expanded into stronger equivalences."
 tags:
   - K-theory
   - Algebraic topology
@@ -13,7 +13,7 @@ prerequisites:
 #  - "/blog/abouttheme.md"
 #syndicate:
 #  - "https://example.org"
-Summary: "Using the whitehead group we want to determine if a homotopy equivalence between finite CW-complexes comes from attaching or removing cells in a simple way."
+Summary: "Using the whitehead group we want to determine if a homotopy equivalence between finite CW-complexes can be expanded into stronger equivalences."
 audio: []
 videos: []
 images: []
@@ -82,7 +82,7 @@ Having a chain contraction is equivalent to being contractible as it can be easi
 Because we are going to be working with the whitehead group it would be useful to not allow basis changes in the modules.
 
 {{<mathdef type="Definition" name="Based free chain complex">}}
-A chain complex $C_*$ of $R$-modules is called <strong>>based free</strong> if for every $n$ the module $C_n$ is a finitely generated free $R$-module together with a specified basis.
+A chain complex $C_*$ of $R$-modules is called <strong>based free</strong> if for every $n$ the module $C_n$ is a finitely generated free $R$-module together with a specified basis.
 {{</mathdef>}}
 
 We are now ready to define the torsion of a chain complex
@@ -197,3 +197,70 @@ vanishes if and only if $f$ is a simple homotopy equivalence.
 {{</mathdef>}}
 
 > [!NOTE] TODO: add an example of usage like proving that any homotopy equivalence between spaces with fundamental group $\mathbb{Z}$ is simple.
+
+# Bordisms
+
+There is a subtly stronger relation than simple homotopy theory equivalence, which is the one of being the boundary of a bordism. In this section we will use again the Whitehead torsion to check if a homotopy equivalence is the boundary of a bordism.
+
+## Definitions
+
+We start by defining the concept of bordism.
+
+{{<mathdef type="Definition" name="Cobordism or bordism">}}
+Let $M_0, M_1$ be two closed $n$-manifolds. A <strong>cobordism</strong> $(W; M_0, f_0, M_1, f_1)$ between $M_0$ and $M_1$ is a compact $(n+1)$-manifold $W$ together with a decomposition of its boundary $\partial W = \partial W_0 \sqcup \partial W_1$ and diffeomorphisms $f_i: M_i \to \partial W_i$ for $i=0,1$.
+
+I $f_0$ and $f_1$ are clear from the context, we will simply write $(W; M_0, M_1)$ for a cobordism between $M_0$ and $M_1$.
+{{</mathdef>}}
+
+This concept on its own is not particularly insightful, we are more interested then in bordisms with extra conditions.
+
+{{<mathdef type="Definition" name="h-Cobordism and s-Cobordism">}}
+Let $(W; M_0, f_0, M_1, f_1)$ be a cobordism between $M_0$ and $M_1$. We say that $W$ is an <strong>h-cobordism</strong> if the inclusions $\partial W_i \to W$ are homotopy equivalences for $i=0,1$. 
+
+Symmetrically, we say that $W$ is an <strong>s-cobordism</strong> if the inclusions $\partial W_i \to W$ are simple homotopy equivalences for $i=0,1$.
+{{</mathdef>}}
+
+## Geometric interpretation
+
+The h-cobordisms and s-cobordisms are generalizations of the concept of homotopy equivalence and simple homotopy equivalence respectively (where the map would be W plus the diffeomorphisms). That any h-cobordism (resp. s-cobordism) is a homotopy equivalence (resp. simple homotopy equivalence) is clear by the definition but we can get a stronger result. It is enough for a cobordism to be an h-cobordism to induce a simple homotopy equivalence between its boundaries (I will not prove this but with a couple additional results follows it trivially from the definition).
+
+We then need another definition for the whitehead torsion of a cobordism, to distinguish between h-cobordisms and s-cobordisms.
+{{<mathdef type="Definition" name="Whitehead torsion of a cobordism">}}
+Let $(W; M_0, f_0, M_1, f_1)$ be an h-cobordism between $M_0$ and $M_1$. We define the <strong>Whitehead torsion of </strong>$W$ as the Whitehead torsion of the inclusion $f_0: M_0 \to W_0 \to W$:
+$$\tau(W,M_0):=\tau(f_0)\in Wh(\pi_1(M_0)).$$
+{{</mathdef>}}
+
+with this we can state the equivalent theorem for h-cobordisms and s-cobordisms.
+
+{{<mathdef type="Theorem" name="s-Cobordism Theorem">}}
+Let $M_0$ be a connected closed manifold of dimension $n \ge 5$ with fundamental group $\pi = \pi_1(M_0)$. Then:
+<ol>
+ <li>Let $(W; M_0, f_0, M_1, f_1)$ be an $h$-cobordism over $M_0$. Then $W$ is diffeomorphic to $M_0 \times [0,1]$ if and only if its Whitehead torsion $\tau(W,M_0)$ vanishes.</li>
+
+ <li>For any $x \in Wh(\pi)$ there is an $h$-cobordism $(W; M_0, f_0, M_1, f_1)$ over $M_0$ with
+$$
+  \tau(W,M_0)=x \in Wh(\pi).
+$$
+ </li>
+
+ <li> The function assigning to an $h$-cobordism $(W; M_0, f_0, M_1, f_1)$ over $M_0$ its Whitehead torsion yields a bijection from the diffeomorphism classes relative $M_0$ of $h$-cobordisms over $M_0$ to the Whitehead group $Wh(\pi)$. </li>
+</ol>
+{{</mathdef>}}
+
+Notice that from this theorem we get that the geometric intuition of a s-cobordism is to be diffeomorphic to a cone over the boundary, and that the h-cobordisms are a generalization of this concept where we allow some "twisting" of the cone, which is measured by the Whitehead torsion.
+
+We can now define algebraic invariants between h-cobordisms up to bounded diffeomorphisms using also negative $K$-theory.
+
+{{<mathdef type="Theorem" name="Bounded h-Cobordism Theorem">}}
+Suppose that $M_0$ is parametrized over $\mathbb{R}^k$ and satisfies $\dim M_0 \ge 5$. Let $\pi$ be its fundamental groupoid. Equivalence classes of bounded $h$-cobordisms over $M_0$ modulo bounded diffeomorphism relative $M_0$ correspond bijectively to elements in $\kappa_{1-k}(\pi)$, where
+$$
+\kappa_{1-k}(\pi)=
+\begin{cases}
+Wh(\pi) & \text{if } k=0,\\
+\widetilde{K}_0(\mathbb{Z}\pi) & \text{if } k=1,\\
+K_{1-k}(\mathbb{Z}\pi) & \text{if } k\ge 2.
+\end{cases}
+$$
+{{</mathdef>}}
+
+The strength of this result comes from the weakness of the equivalence relation, asking for a bordism to be diffeomorphic to another is a very strong condition. This makes this algebraic invariant very powerful, as it can distinguish between different bordisms that are not diffeomorphic but are still "similar" in a homotopical sense.
