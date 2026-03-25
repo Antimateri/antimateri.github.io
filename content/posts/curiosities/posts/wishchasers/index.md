@@ -193,7 +193,9 @@ An object card looks like this:
 
 Where
 - The top left icon indicates if the object is active (you need to use an action to activate it) or passive (the object is always active and doesn't require an action).
-- The top right icon indicates the type of action using the object counts as, most of the time is blank.
+- The top right icon indicates the type of action using the object counts as, most of the time is blank. The types, when they are not blank, can be "Attack", "Movement" or "Instant". 
+  - "Attack" and "Movement" mean that when you use the object, the action you are using counts as that type of action, this is relevant because if an object makes all attack actions have more range then this objects also get more range. 
+  - "Instant" means that the pocket containing the object can be used at any time, including in other player's turns.
 - The cost is the amount of coins you need to pay to buy the object in the shop.
 
 ### Obtaining objects

@@ -13,7 +13,6 @@ Summary: "In here I describe the design process of the Wishchasers prototype sec
 audio: []
 videos: []
 images: []
-hidden: true
 ---
 
 ## Feedback from the first prototype
