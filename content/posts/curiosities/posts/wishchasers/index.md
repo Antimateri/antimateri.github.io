@@ -79,12 +79,12 @@ The objective of the game is to have the most points when the game ends.
 
 Now, you must be asking, "How do I get points?" Well, there are 5 ways to obtain points:
 - Killing enemies: Every time a player kills an enemy they get a certain amount of points.
-- Buying points from the shop: The shop has a deck of point cards that players can buy with coins.
-- Buying points from fountains: Fountains are special tiles that give players points in exchange for very little coins.
+- Buying points from the shop: The shop has a deck of 5-points cards that players can buy with coins.
+- Buying points from fountains: Fountains are special tiles that give players points in exchange for a coin.
 - Stealing points from other players: When a player dies, they lose a certain amount of points that are left in the tile where they died, other players can then pick those points up.
 - Objects: Some objects give points when used.
 
-After reading this you will probably be asking yourself many questions, continue reading and all your doubts will be cleared.
+After reading this you will probably have many questions, continue reading and all your doubts will be cleared.
 
 ## Components 
 The game needs the following components:
@@ -284,7 +284,7 @@ When using a pocket in a tile with monsters, each monster deals its damage to th
 
 ### Traps
 
-Traps are tiles that, if the player doesn't have the required object to avoid that trap, deals damage when using a pocket in them or when the player moves through them. Each trap has a specific object that stops the trap from hurting a player who has that object.
+Traps are tiles that, if the player doesn't have the required object to avoid that trap, deal damage when the player uses a pocket inside them or when they move through them. Each trap has a specific object that, if a player has it, they can move through and act in the trap without taking damage.
 
 A trap tile looks as follows:
 
@@ -362,8 +362,9 @@ A trash tile looks as follows:
 
 ![trash tile](images/trash.jpeg)
 
+## Ending the game
 
-
+The game ends the round after all enemies have entered the game, that is, when the enemy deck is emptied the last round starts.
 
 
 

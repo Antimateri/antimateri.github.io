@@ -31,3 +31,4 @@ After playtesting the first prototype a couple of times, I got some very useful 
 - More player interaction objects?
 - More monster interaction objects?
 - Tramps are not interesting, add variety?
+- Add identity and flavour.
