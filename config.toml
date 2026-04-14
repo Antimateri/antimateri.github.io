@@ -9,6 +9,12 @@ theme = ["hugo-dusk"]
 #themesDir = "../.."
 enableRobotsTXT = true
 
+[outputs]
+  home = ['html', 'rss']
+  section = ['html', 'rss']
+  taxonomy = ['html']
+  term = ['html']
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
