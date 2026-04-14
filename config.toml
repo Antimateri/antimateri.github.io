@@ -37,10 +37,10 @@ SectionPagesMenu = "main"
   url = "/series/"
 
 [[menu.main]]
-  name = "Archive"
+  name = "Events"
   weight = -100
-  identifier = "archive"
-  url = "/archive/"
+  identifier = "events"
+  url = "/events/"
 
 [[menu.other]]
   name = "Everything"
