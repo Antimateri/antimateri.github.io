@@ -4,8 +4,8 @@ description: "In this post we will calculate a possible homotopy group of a form
 tags:
   - Logic
   - Automata Theory
-date: "2026-06-18"
-publishDate: "2026-06-18"
+date: "2026-05-17"
+publishDate: "2026-05-17"
 #series:
 #prerequisites:
 #  - "/blog/abouttheme.md"
