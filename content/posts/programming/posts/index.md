@@ -14,7 +14,7 @@ Summary: "An overview of the inner workings of the blog and how this knowledge w
 audio: []
 videos: []
 images: []
-htmlSafe
+htmlSafe: True
 ---
 
 TODO
