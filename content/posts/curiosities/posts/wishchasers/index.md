@@ -12,6 +12,7 @@ Summary: "In here I describe the design process of the Wishchasers prototype and
 audio: []
 videos: []
 images: []
+htmlSafe: True
 ---
 
 # Design Process
