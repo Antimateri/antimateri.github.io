@@ -190,7 +190,7 @@ When a player performs an attack action, they deal damage to a single enemy (mon
 
 An object card looks like this:
 
-![Object card]({{ < fullimg images/object-a-signed.webp > }})
+![Object card]({{< fullimg images/object-a-signed.webp >}})
 
 Where
 - The top left icon indicates if the object is active (you need to use an action to activate it) or passive (the object is always active and doesn't require an action).
@@ -266,7 +266,7 @@ When a player is in a tile with monsters  or a trap, and they use a pocket, they
 
 A monster card looks as follows:
 
-![Monster card]({{ < fullimg images/monster-signed.webp > }})
+![Monster card]({{< fullimg images/monster-signed.webp >}})
 
 Where:
 - The top left icon indicates the amount of damage the monster does.
@@ -289,7 +289,7 @@ Traps are tiles that, if the player doesn't have the required object to avoid th
 
 A trap tile looks as follows:
 
-![Trap tile]({{ < fullimg images/trap.jpeg > }})
+![Trap tile]({{< fullimg images/trap.jpeg >}})
 
 Where the icon in the top left indicates the object that can be used to avoid the trap.
 
@@ -303,7 +303,7 @@ When a player's life points reach 0, they die. That is, the player returns to th
 
 An enumerated board tile looks as follows:
 
-![enumerated tile]({{ < fullimg images/normal.jpeg > }})
+![enumerated tile]({{< fullimg images/normal.jpeg >}})
 
 Where the number in the top right is its enumeration.
 
@@ -313,7 +313,7 @@ When a tile at random needs to be chosen, the players must throw 2 d6's and the 
 
 An intersection tile looks as follows:
 
-![intersection tile]({{ < fullimg images/intersection.jpeg > }})
+![intersection tile]({{< fullimg images/intersection.jpeg >}})
 
 ### Starting tiles
 
@@ -321,7 +321,7 @@ Starting tiles are the tiles where players begin the game and where they return 
 
 A starting tile looks as follows:
 
-![starting tile]({{ < fullimg images/spawn.jpeg > }})
+![starting tile]({{< fullimg images/spawn.jpeg >}})
 
 ### Fountains
 
@@ -329,7 +329,7 @@ When searching in a fountain, if it still has 5 points in it a player may pay 1 
 
 A fountain tile looks as follows:
 
-![fountain tile]({{ < fullimg images/fountain.jpeg > }})
+![fountain tile]({{< fullimg images/fountain.jpeg >}})
 
 ### Armories
 
@@ -337,7 +337,7 @@ Armouries are tiles that can contain an object, when a player searches in a non-
 
 An armory tile looks as follows:
 
-![armory tile]({{ < fullimg images/armory.jpeg > }})
+![armory tile]({{< fullimg images/armory.jpeg >}})
 
 ### Treasure tiles
 
@@ -345,7 +345,7 @@ Treasure tiles are tiles that can contain coins, when a player searches in a non
 
 A treasure tile looks as follows:
 
-![treasure tile]({{ < fullimg images/treasure.jpeg > }})
+![treasure tile]({{< fullimg images/treasure.jpeg >}})
 
 ### Spawning tiles
 
@@ -353,7 +353,7 @@ Spawning tiles are tiles where enemies appear at the end of each round.
 
 A spawning tile looks as follows:
 
-![spawning tile]({{ < fullimg images/spawner.jpeg > }})
+![spawning tile]({{< fullimg images/spawner.jpeg >}})
 
 ### Trash
 
@@ -361,7 +361,7 @@ Trash tiles are tiles where players can discard objects, when a player searches 
 
 A trash tile looks as follows:
 
-![trash tile]({{ < fullimg images/trash.jpeg > }})
+![trash tile]({{< fullimg images/trash.jpeg >}})
 
 ## Ending the game
 
