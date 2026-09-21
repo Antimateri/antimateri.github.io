@@ -152,7 +152,13 @@ The way we will calculate the homotopy group of a formula in S1S is by studying 
 
 First we need to codify the variables of a formula in S1S as something an automata can understand.
 
-One can rewrite a formula in S1S interpreted in a model of S1S as a first order $(0\in,\subseteq,\text{Succ},\text{Sing})$-formula interpreted over a structure with universe $\mathcal{P}(\mathbb{N})$ and standard interpretations for $0\in$ and $\subseteq$, $\text{Succ}(X)=\\{ x+1 | x \in X \\}$, and $\text{Sing}(X)$ holds if and only if $X$ is a singleton. Indeed, it is enough to rewrite the second order quantifiers as first order quantifiers over subsets of $\mathbb{N}$ and the first order quantifiers as subsets of $\mathcal{P}(\mathbb{N})$ satisfying Sing.
+One can rewrite a formula in S1S interpreted in a model of S1S as a first order $(0\in,\subseteq,\text{Succ},\text{Sing})$-formula interpreted over a structure with universe $\mathcal{P}(\mathbb{N})$ and standard interpretations for $0\in$ and $\subseteq$, $\text{Succ}(X)=\\{ x+1 | x \in X \\}$, and $\text{Sing}(X)$ holds if and only if $X$ is a singleton. Indeed, because we can rewrite the second order quantifiers as first order quantifiers over subsets of $\mathbb{N}$ and the first order quantifiers as subsets of $\mathcal{P}(\mathbb{N})$ satisfying Sing it is enough to check that $0\in,\subseteq,\text{Succ}$ and $\text{Sing}$ are definable in S1S.
+
+The definitions are as follows:
+- $0\in X$:= $X(0)$.
+- $X \subseteq Y$:= $\forall x, X(x) \rightarrow Y(x)$.
+- $\text{Succ}(X)$ is already defined in S1S.
+- $\text{Sing}(X)$:= $\exists x, X(x) \land \forall y, X(y) \rightarrow y=x$.
 
 Using this interpretation we can consider subsets of $\mathbb{N}$ as the domain of our formulas and write our formulas using only $0\in,\subseteq,\text{Succ},\text{Sing}, \exists, \land$ and $\lnot$ (everything else can be defined using first order logic).
 
