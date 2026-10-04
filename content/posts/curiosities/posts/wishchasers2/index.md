@@ -3,7 +3,7 @@ title: "Wishchasers (Boardgame) - second Prototype"
 description: "In here I describe the design process of the Wishchasers prototype second big iteration and its rules."
 tags:
   - Boardgames
-date: "2026-10-04"
+date: "2026-10-05"
 publishDate: "2026-10-04"
 series:
   - Wishchasers
@@ -49,7 +49,7 @@ The game needs the following components:
 - 5 boss cards
 - 45 Nightmare cards (15/20/10 small/medium/large)
 - 10 empty tiles
-- 4 starting tiles (one for each player)
+- 6 starting tiles (one for each player)
 - 2 fountain tiles
 - 2 treasure tiles
 - 2 armory tiles
@@ -57,7 +57,7 @@ The game needs the following components:
 - 12 trap tiles
 - A deck of trap tokens (one for every object with no use limit)
 - 3 d6 dices (for randomness)
-- 4 player pieces
+- 6 player pieces
 - 24 pocket tokens (6 for each player)
 - 16 number tokens (enumerated from 3 to 18)
 - 5 portal tokens
@@ -90,13 +90,19 @@ The board is generating by joining the tiles such that there are:
 - Any number of trap tiles
 - As many starting tiles as players
 
-Here are some examples of game boards:
+Here are some examples of game boards, for 4 players:
 
 ![Board example 1]({{< fullimg "images/mymap.webp" >}})
 
 ![Board example 2]({{< fullimg "images/mymap2.webp" >}})
 
 ![Board example 3]({{< fullimg "images/mymap3.webp" >}})
+
+And for 6:
+
+![Board example 4]({{< fullimg "images/mymap6-1.webp" >}})
+
+![Board example 5]({{< fullimg "images/mymap6-2.webp" >}})
 
 In this boards the green tiles are starting tiles, the orange tiles are fountains, treasures or armories, the brown tiles are traps, the light gray tiles are empty tiles and the dark grey tile is the well.
 
@@ -168,7 +174,7 @@ Put a number of enemies equal to the current round number +2 in the board. For e
 One random object appears in a random room face down.
 
 ### 5. Shop Restock
-The shop is replenished with new face up objects if there are less than 3 cards remaining.
+If no item has been bought in the last turn, remove the oldest item from the shop, then the shop is replenished with new face up objects until there are 3 cards remaining.
 
 ### 6. Recovery
 Each player heals 1 health for each unused pocket this round and recovers all their pockets.
@@ -326,7 +332,7 @@ This are the bosses and nightmares used in the second prototype:
 | # | Name | Attack | Life | Effect | Item | Points | Coins | Appearances |
 |---|------|--------|------|--------|------|--------|-------|-------------|
 | 1 | Basophobia | 3 | 10 | Whenever this nightmare receives damage, it moves to a random adjacent tile. | Spring shoes | 24 | 12 | 1 |
-| 2 | Enochlophobia | 1 | 1 | At the end of each turn, this nightmare creates a copy of itself in each adjacent empty room. | Self-Replicating Armor | 24 | 12 | 1 |
+| 2 | Enochlophobia | 1 | 1 | At the end of each turn, this nightmare creates a copy of itself in each adjacent empty room. | Self-Replicating Armor | 12 | 12 | 1 |
 | 3 | Catoptrophobia | 2 | 12 | Whenever this nightmare receives damage, create a copy of itself without this ability in the current tile. | Normal Pocket | 24 | 12 | 1 |
 | 4 | Peniaphobia | 3 | 10 | When you receive an attack from this nightmare, one of your unused pockets is used up at random. | Deja Vu Machine | 24 | 12 | 1 |
 | 5 | Topophobia | 3 | 10 | When this nightmare deals damage to a player, that player is teleported to a random Room. | Cavalry Lance | 24 | 12 | 1 |
