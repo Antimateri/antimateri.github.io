@@ -127,7 +127,7 @@ Players take turns in clockwise order, during their turn they can perform 1 or 2
 
 - **Move:**
   
-  Move up to **3 spaces**.
+  Move up to **2 spaces**.
 
 - **Attack**
 
