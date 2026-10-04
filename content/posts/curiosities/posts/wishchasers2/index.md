@@ -3,8 +3,8 @@ title: "Wishchasers (Boardgame) - second Prototype"
 description: "In here I describe the design process of the Wishchasers prototype second big iteration and its rules."
 tags:
   - Boardgames
-date: "2026-03-20"
-publishDate: "2026-03-20"
+date: "2026-10-04"
+publishDate: "2026-10-04"
 series:
   - Wishchasers
 prerequisites:
