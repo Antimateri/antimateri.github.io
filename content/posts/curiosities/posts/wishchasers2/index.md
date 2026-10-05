@@ -39,35 +39,39 @@ Whishchasers is a great game, the objective of the game is to win, how do you wi
 
 ## Components 
 The game needs the following components:
-- A deck of object cards
-- A deck of Boss object cards
+- [Object cards:]({{< fullimg "documents/objects.pdf" >}})
+  - A deck of object cards 
+  - A deck of Boss object cards
 - 20 1 point tokens
 - 20 5 point tokens
 - 45 life tokens
 - 20 1 coin tokens
 - 20 5 coin tokens
-- 5 boss cards
-- 45 Nightmare cards (15/20/10 small/medium/large)
-- 10 empty tiles
-- 6 starting tiles (one for each player)
-- 2 fountain tiles
-- 2 treasure tiles
-- 2 armory tiles
-- 1 well tile
-- 12 trap tiles
-- A deck of trap tokens (one for every object with no use limit)
+- [Nightmares:]({{< fullimg "documents/nightmares.pdf" >}})
+  - 5 boss cards
+  - 45 Nightmare cards (15/20/10 small/medium/large)
+- [Tiles (the document has some redundancy):]({{< fullimg "documents/tiles.pdf" >}})
+  - 10 empty tiles
+  - 6 starting tiles (one for each player)
+  - 2 fountain tiles
+  - 2 treasure tiles
+  - 2 armory tiles
+  - 1 well tile
+  - 12 trap tiles
+- [Tokens, in order:]({{< fullimg "documents/tokens.pdf" >}})
+  - A deck of object tokens (one for every non-boss object with no use limit)
+  - 5 portal tokens
+  - 5 one use trap tokens
+  - 2 drone tokens
+  - 5 belt tokens
+  - 5 spatial instability token
+  - 3 trap token
+  - 3 no-aggression token
+  - 1 beacon token
+  - 16 number tokens (enumerated from 3 to 18)
 - 3 d6 dices (for randomness)
 - 6 player pieces
-- 24 pocket tokens (6 for each player)
-- 16 number tokens (enumerated from 3 to 18)
-- 5 portal tokens
-- 5 belt tokens
-- 5 spatial instability token
-- 5 trap token
-- 5 one use trap token
-- 5 no-aggression token
-- 1 drone token
-- 1 beacon token
+- Pockets (6 for each player)
 
 ## Notation
 In this rulebook, we will use the following notation, don't worry if you don't understand all the terms now, this section is intended as a glossary of terms for the rest of the rulebook:
@@ -106,7 +110,7 @@ And for 6:
 
 In this boards the green tiles are starting tiles, the orange tiles are fountains, treasures or armories, the brown tiles are traps, the light gray tiles are empty tiles and the dark grey tile is the well.
 
-After setting up a disposition a different number from the number tokens must be assigned to every empty tile, fountain, treasure and armory. Then, a single trap token must be assigned to every trap tile which will indicate the object used to save it.
+After setting up a disposition a different number from the number tokens must be assigned to every empty tile, fountain, treasure and armory. Then, a single object token must be assigned to every trap tile which will indicate the object used to not being affected it.
 
 Finally, two monsters will spawn in random tiles of the map.
 
@@ -348,11 +352,11 @@ Traps are tiles that, if the player doesn't have the required object to avoid th
 
 Some objects can add a modification to a tile, this modifications are signified by a token placed in the tile.The possible modifications are the following:
 
- - Portal: Whenever a player enters a tile with a portal they can decide to appear in any other tile with a portal
- - Belt: Moving out of the room in the direction specified in the belt always costs 1 less movement, going out in any other direction always costs 1 more movement.
- - Spatial inestability: Whenever a player enters or passes through this room, they are teleported to a random tile.
- - Trap: Whenever a player uses a pocket in this room or moves through it they receive 3 damage.
- - No agression field: No damage can be done or be recieved in the affected tile.
+ - **Portal**: Whenever a player enters a tile with a portal they can decide to appear in any other tile with a portal
+ - **Belt**: Moving out of the room in the direction specified in the belt always costs 1 less movement, going out in any other direction always costs 1 more movement.
+ - **Spatial inestability**: Whenever a player enters or passes through this room, they are teleported to a random tile.
+ - **Trap**: Whenever a player uses a pocket in this room or moves through it they receive 3 damage.
+ - **No agression field**: No damage can be done or be recieved in the affected tile.
 
 ## Death and stealing points
 
