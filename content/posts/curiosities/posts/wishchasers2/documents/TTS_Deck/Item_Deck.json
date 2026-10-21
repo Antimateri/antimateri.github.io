@@ -1,0 +1,2033 @@
+{
+ "SaveName": "",
+ "GameMode": "",
+ "Date": "",
+ "VersionNumber": "",
+ "GameType": "",
+ "GameComplexity": "",
+ "Tags": [],
+ "Gravity": 0.5,
+ "PlayArea": 0.5,
+ "Table": "",
+ "Sky": "",
+ "Note": "",
+ "TabStates": {},
+ "LuaScript": "",
+ "LuaScriptState": "",
+ "XmlUI": "",
+ "ObjectStates": [
+  {
+   "GUID": "deck01",
+   "Name": "DeckCustom",
+   "Nickname": "Item Deck",
+   "Transform": {
+    "posX": 0,
+    "posY": 1,
+    "posZ": 0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "DeckIDs": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159
+   ],
+   "CustomDeck": {
+    "1": {
+     "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+     "BackURL": "REPLACE_WITH_BACK_URL",
+     "NumWidth": 10,
+     "NumHeight": 6,
+     "BackIsHidden": true,
+     "UniqueBack": false,
+     "Type": 0
+    }
+   },
+   "ContainedObjects": [
+    {
+     "GUID": "c0000",
+     "Name": "Card",
+     "Nickname": "AloField",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 100,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0001",
+     "Name": "Card",
+     "Nickname": "AP Portal",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 101,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0002",
+     "Name": "Card",
+     "Nickname": "Blink",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 102,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0003",
+     "Name": "Card",
+     "Nickname": "Bomb",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 103,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0004",
+     "Name": "Card",
+     "Nickname": "Broken Extending Hand",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 104,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0005",
+     "Name": "Card",
+     "Nickname": "Cavalry Lance",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 105,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0006",
+     "Name": "Card",
+     "Nickname": "Collector's Eye",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 106,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0007",
+     "Name": "Card",
+     "Nickname": "Concrete Mixer",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 107,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0008",
+     "Name": "Card",
+     "Nickname": "Constitution Belt",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 108,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0009",
+     "Name": "Card",
+     "Nickname": "Crane",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 109,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c000a",
+     "Name": "Card",
+     "Nickname": "Deja Vu Machine",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 110,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c000b",
+     "Name": "Card",
+     "Nickname": "Dream Extractor",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 111,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c000c",
+     "Name": "Card",
+     "Nickname": "Echo Chamber",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 112,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c000d",
+     "Name": "Card",
+     "Nickname": "Ectoplasm",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 113,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c000e",
+     "Name": "Card",
+     "Nickname": "Emergency Time Jump",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 114,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c000f",
+     "Name": "Card",
+     "Nickname": "Ensnaring Strike",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 115,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0010",
+     "Name": "Card",
+     "Nickname": "Explorer's Manual",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 116,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0011",
+     "Name": "Card",
+     "Nickname": "Extending Hand",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 117,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0012",
+     "Name": "Card",
+     "Nickname": "Fear Toxin",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 118,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0013",
+     "Name": "Card",
+     "Nickname": "Forgotten Dream",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 119,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0014",
+     "Name": "Card",
+     "Nickname": "Grappling Hook",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 120,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0015",
+     "Name": "Card",
+     "Nickname": "Health Potion",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 121,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0016",
+     "Name": "Card",
+     "Nickname": "High-Bourgeois Monocle",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 122,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0017",
+     "Name": "Card",
+     "Nickname": "Horror Movie",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 123,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0018",
+     "Name": "Card",
+     "Nickname": "Invisibility Potion",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 124,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0019",
+     "Name": "Card",
+     "Nickname": "Lich Heart",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 125,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c001a",
+     "Name": "Card",
+     "Nickname": "Lucky Coin",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 126,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c001b",
+     "Name": "Card",
+     "Nickname": "Magnifying Glass",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 127,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c001c",
+     "Name": "Card",
+     "Nickname": "Mechanical Tape",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 128,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c001d",
+     "Name": "Card",
+     "Nickname": "Non-Aggression Treaty",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 129,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c001e",
+     "Name": "Card",
+     "Nickname": "Normal Pocket",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 130,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c001f",
+     "Name": "Card",
+     "Nickname": "Parasite",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 131,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0020",
+     "Name": "Card",
+     "Nickname": "Portal Chalk",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 132,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0021",
+     "Name": "Card",
+     "Nickname": "Radioactive Stone",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 133,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0022",
+     "Name": "Card",
+     "Nickname": "Remote-Controlled Robot",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 134,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0023",
+     "Name": "Card",
+     "Nickname": "Repair Kit",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 135,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0024",
+     "Name": "Card",
+     "Nickname": "Salad",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 136,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0025",
+     "Name": "Card",
+     "Nickname": "Scythe",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 137,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0026",
+     "Name": "Card",
+     "Nickname": "Shovel",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 138,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0027",
+     "Name": "Card",
+     "Nickname": "Small Blades",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 139,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0028",
+     "Name": "Card",
+     "Nickname": "Snout",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 140,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0029",
+     "Name": "Card",
+     "Nickname": "Speed Potion",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 141,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c002a",
+     "Name": "Card",
+     "Nickname": "Spiky Jacket",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 142,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c002b",
+     "Name": "Card",
+     "Nickname": "Spring Blade",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 143,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c002c",
+     "Name": "Card",
+     "Nickname": "Spring Shoes",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 144,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c002d",
+     "Name": "Card",
+     "Nickname": "Swiss Army Knife",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 145,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c002e",
+     "Name": "Card",
+     "Nickname": "Teleport Beacon",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 146,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c002f",
+     "Name": "Card",
+     "Nickname": "Teleportation Belt",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 147,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0030",
+     "Name": "Card",
+     "Nickname": "Thick Handle",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 148,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0031",
+     "Name": "Card",
+     "Nickname": "Trap Arsenal",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 149,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0032",
+     "Name": "Card",
+     "Nickname": "Unreliable Armor",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 150,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0033",
+     "Name": "Card",
+     "Nickname": "Unstable Space",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 151,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0034",
+     "Name": "Card",
+     "Nickname": "Vampire Teeth",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 152,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0035",
+     "Name": "Card",
+     "Nickname": "Very Big Coin",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 153,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0036",
+     "Name": "Card",
+     "Nickname": "Very Guided Missile",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 154,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0037",
+     "Name": "Card",
+     "Nickname": "Very Large Mace",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 155,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0038",
+     "Name": "Card",
+     "Nickname": "Vitality Potion",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 156,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c0039",
+     "Name": "Card",
+     "Nickname": "Winged Boots",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 157,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c003a",
+     "Name": "Card",
+     "Nickname": "Self-Replicating Armor",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 158,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "c003b",
+     "Name": "Card",
+     "Nickname": "Trap Blueprint",
+     "Transform": {
+      "posX": 0,
+      "posY": 0,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 1,
+      "scaleY": 1,
+      "scaleZ": 1
+     },
+     "CardID": 159,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "REPLACE_WITH_FACE_SHEET_URL",
+       "BackURL": "REPLACE_WITH_BACK_URL",
+       "NumWidth": 10,
+       "NumHeight": 6,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    }
+   ],
+   "LuaScript": "",
+   "LuaScriptState": ""
+  }
+ ]
+}

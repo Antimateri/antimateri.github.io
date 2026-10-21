@@ -1,0 +1,1703 @@
+{
+ "SaveName": "",
+ "GameMode": "",
+ "Date": "",
+ "VersionNumber": "",
+ "GameType": "",
+ "GameComplexity": "",
+ "Tags": [],
+ "Gravity": 0.5,
+ "PlayArea": 0.5,
+ "Table": "",
+ "Sky": "",
+ "Note": "",
+ "TabStates": {},
+ "LuaScript": "",
+ "LuaScriptState": "",
+ "XmlUI": "",
+ "ObjectStates": [
+  {
+   "GUID": "nmdeck",
+   "Name": "DeckCustom",
+   "Nickname": "Nightmare Deck",
+   "Transform": {
+    "posX": 0,
+    "posY": 1,
+    "posZ": 0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 180,
+    "scaleX": 0.5,
+    "scaleY": 0.5,
+    "scaleZ": 0.5
+   },
+   "DeckIDs": [
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149
+   ],
+   "CustomDeck": {
+    "1": {
+     "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+     "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+     "NumWidth": 10,
+     "NumHeight": 5,
+     "BackIsHidden": true,
+     "UniqueBack": false,
+     "Type": 0
+    }
+   },
+   "ContainedObjects": [
+    {
+     "GUID": "n0000",
+     "Name": "Card",
+     "Nickname": "Basophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 100,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0001",
+     "Name": "Card",
+     "Nickname": "Enochlophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 101,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0002",
+     "Name": "Card",
+     "Nickname": "Catoptrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 102,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0003",
+     "Name": "Card",
+     "Nickname": "Peniaphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 103,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0004",
+     "Name": "Card",
+     "Nickname": "Topophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 104,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0005",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 105,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0006",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 106,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0007",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 107,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0008",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 108,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0009",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 109,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n000a",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 110,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n000b",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 111,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n000c",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 112,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n000d",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 113,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n000e",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 114,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n000f",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 115,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0010",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 116,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0011",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 117,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0012",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 118,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0013",
+     "Name": "Card",
+     "Nickname": "Microphobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 119,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0014",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 120,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0015",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 121,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0016",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 122,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0017",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 123,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0018",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 124,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0019",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 125,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n001a",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 126,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n001b",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 127,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n001c",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 128,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n001d",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 129,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n001e",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 130,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n001f",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 131,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0020",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 132,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0021",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 133,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0022",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 134,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0023",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 135,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0024",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 136,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0025",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 137,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0026",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 138,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0027",
+     "Name": "Card",
+     "Nickname": "Phobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 139,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0028",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 140,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0029",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 141,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n002a",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 142,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n002b",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 143,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n002c",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 144,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n002d",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 145,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n002e",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 146,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n002f",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 147,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0030",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 148,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "n0031",
+     "Name": "Card",
+     "Nickname": "Macrophobia",
+     "Transform": {
+      "posX": 0,
+      "posY": 1,
+      "posZ": 0,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 180,
+      "scaleX": 0.5,
+      "scaleY": 0.5,
+      "scaleZ": 0.5
+     },
+     "CardID": 149,
+     "Hands": true,
+     "SidewaysCard": false,
+     "CustomDeck": {
+      "1": {
+       "FaceURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_face_sheet.png",
+       "BackURL": "file:///C:/Users/sasuc/Documents/My Games/Tabletop Simulator/Saves/TTS_Nightmares/nightmare_back.png",
+       "NumWidth": 10,
+       "NumHeight": 5,
+       "BackIsHidden": true,
+       "UniqueBack": false,
+       "Type": 0
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    }
+   ],
+   "LuaScript": "",
+   "LuaScriptState": ""
+  }
+ ]
+}

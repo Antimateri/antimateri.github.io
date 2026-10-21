@@ -1,0 +1,2450 @@
+{
+ "SaveName": "",
+ "GameMode": "",
+ "Date": "",
+ "VersionNumber": "",
+ "GameType": "",
+ "GameComplexity": "",
+ "Tags": [],
+ "Gravity": 0.5,
+ "PlayArea": 0.5,
+ "Table": "",
+ "Sky": "",
+ "Note": "",
+ "TabStates": {},
+ "LuaScript": "",
+ "LuaScriptState": "",
+ "XmlUI": "",
+ "ObjectStates": [
+  {
+   "GUID": "p00000",
+   "Name": "Custom_Tile",
+   "Nickname": "aloField_ship",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/aloField_ship.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/aloField_ship.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00001",
+   "Name": "Custom_Tile",
+   "Nickname": "blink_figure",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/blink_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/blink_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00002",
+   "Name": "Custom_Tile",
+   "Nickname": "cavalry_lance",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/cavalry_lance.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/cavalry_lance.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00003",
+   "Name": "Custom_Tile",
+   "Nickname": "eye_target",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/eye_target.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/eye_target.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00004",
+   "Name": "Custom_Tile",
+   "Nickname": "white_belt",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/white_belt.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/white_belt.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00005",
+   "Name": "Custom_Tile",
+   "Nickname": "hourglass_burst",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/hourglass_burst.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/hourglass_burst.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00006",
+   "Name": "Custom_Tile",
+   "Nickname": "dreamcatcher",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/dreamcatcher.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/dreamcatcher.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00007",
+   "Name": "Custom_Tile",
+   "Nickname": "screaming_egg",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/screaming_egg.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/screaming_egg.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00008",
+   "Name": "Custom_Tile",
+   "Nickname": "jar_ghost",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/jar_ghost.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/jar_ghost.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00009",
+   "Name": "Custom_Tile",
+   "Nickname": "junk_pile",
+   "Transform": {
+    "posX": 8.599999999999998,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/junk_pile.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/junk_pile.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0000a",
+   "Name": "Custom_Tile",
+   "Nickname": "book",
+   "Transform": {
+    "posX": 11.0,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/book.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/book.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0000b",
+   "Name": "Custom_Tile",
+   "Nickname": "arm",
+   "Transform": {
+    "posX": 13.399999999999999,
+    "posY": 1.2,
+    "posZ": 7.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/arm.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/arm.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0000c",
+   "Name": "Custom_Tile",
+   "Nickname": "test_tubes",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/test_tubes.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/test_tubes.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0000d",
+   "Name": "Custom_Tile",
+   "Nickname": "kite",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/kite.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/kite.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0000e",
+   "Name": "Custom_Tile",
+   "Nickname": "binoculars",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/binoculars.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/binoculars.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0000f",
+   "Name": "Custom_Tile",
+   "Nickname": "heart_wires",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/heart_wires.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/heart_wires.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00010",
+   "Name": "Custom_Tile",
+   "Nickname": "hand_whip",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/hand_whip.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/hand_whip.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00011",
+   "Name": "Custom_Tile",
+   "Nickname": "magnifier",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/magnifier.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/magnifier.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00012",
+   "Name": "Custom_Tile",
+   "Nickname": "cargo_shorts",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/cargo_shorts.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/cargo_shorts.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00013",
+   "Name": "Custom_Tile",
+   "Nickname": "moon_rock",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/moon_rock.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/moon_rock.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00014",
+   "Name": "Custom_Tile",
+   "Nickname": "cracked_sun",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/cracked_sun.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/cracked_sun.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00015",
+   "Name": "Custom_Tile",
+   "Nickname": "robot",
+   "Transform": {
+    "posX": 8.599999999999998,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00016",
+   "Name": "Custom_Tile",
+   "Nickname": "gear_wrench",
+   "Transform": {
+    "posX": 11.0,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/gear_wrench.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/gear_wrench.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00017",
+   "Name": "Custom_Tile",
+   "Nickname": "seaweed",
+   "Transform": {
+    "posX": 13.399999999999999,
+    "posY": 1.2,
+    "posZ": 4.6,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/seaweed.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/seaweed.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00018",
+   "Name": "Custom_Tile",
+   "Nickname": "scythe",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/scythe.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/scythe.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00019",
+   "Name": "Custom_Tile",
+   "Nickname": "shield",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/shield.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/shield.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0001a",
+   "Name": "Custom_Tile",
+   "Nickname": "knife",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/knife.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/knife.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0001b",
+   "Name": "Custom_Tile",
+   "Nickname": "dog_face",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/dog_face.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/dog_face.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0001c",
+   "Name": "Custom_Tile",
+   "Nickname": "spiky_figure",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/spiky_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/spiky_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0001d",
+   "Name": "Custom_Tile",
+   "Nickname": "dagger_flame",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/dagger_flame.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/dagger_flame.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0001e",
+   "Name": "Custom_Tile",
+   "Nickname": "spring",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/spring.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/spring.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0001f",
+   "Name": "Custom_Tile",
+   "Nickname": "swiss_knife",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/swiss_knife.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/swiss_knife.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00020",
+   "Name": "Custom_Tile",
+   "Nickname": "belt",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/belt.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/belt.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00021",
+   "Name": "Custom_Tile",
+   "Nickname": "grappling_hook",
+   "Transform": {
+    "posX": 8.599999999999998,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/grappling_hook.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/grappling_hook.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00022",
+   "Name": "Custom_Tile",
+   "Nickname": "bear_trap",
+   "Transform": {
+    "posX": 11.0,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00023",
+   "Name": "Custom_Tile",
+   "Nickname": "map",
+   "Transform": {
+    "posX": 13.399999999999999,
+    "posY": 1.2,
+    "posZ": 2.2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/map.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/map.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00024",
+   "Name": "Custom_Tile",
+   "Nickname": "armor",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/armor.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/armor.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00025",
+   "Name": "Custom_Tile",
+   "Nickname": "fangs",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/fangs.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/fangs.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00026",
+   "Name": "Custom_Tile",
+   "Nickname": "spiked_ball",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/spiked_ball.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/spiked_ball.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00027",
+   "Name": "Custom_Tile",
+   "Nickname": "winged_boot",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/winged_boot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/winged_boot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00028",
+   "Name": "Custom_Tile",
+   "Nickname": "portal",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00029",
+   "Name": "Custom_Tile",
+   "Nickname": "portal",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0002a",
+   "Name": "Custom_Tile",
+   "Nickname": "portal",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0002b",
+   "Name": "Custom_Tile",
+   "Nickname": "portal",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0002c",
+   "Name": "Custom_Tile",
+   "Nickname": "portal",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/portal.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0002d",
+   "Name": "Custom_Tile",
+   "Nickname": "bear_trap",
+   "Transform": {
+    "posX": 8.599999999999998,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0002e",
+   "Name": "Custom_Tile",
+   "Nickname": "bear_trap",
+   "Transform": {
+    "posX": 11.0,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0002f",
+   "Name": "Custom_Tile",
+   "Nickname": "bear_trap",
+   "Transform": {
+    "posX": 13.399999999999999,
+    "posY": 1.2,
+    "posZ": -0.1999999999999993,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00030",
+   "Name": "Custom_Tile",
+   "Nickname": "bear_trap",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00031",
+   "Name": "Custom_Tile",
+   "Nickname": "bear_trap",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bear_trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00032",
+   "Name": "Custom_Tile",
+   "Nickname": "robot",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00033",
+   "Name": "Custom_Tile",
+   "Nickname": "robot",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00034",
+   "Name": "Custom_Tile",
+   "Nickname": "robot",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00035",
+   "Name": "Custom_Tile",
+   "Nickname": "robot",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00036",
+   "Name": "Custom_Tile",
+   "Nickname": "robot",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/robot.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00037",
+   "Name": "Custom_Tile",
+   "Nickname": "conveyor",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00038",
+   "Name": "Custom_Tile",
+   "Nickname": "conveyor",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00039",
+   "Name": "Custom_Tile",
+   "Nickname": "conveyor",
+   "Transform": {
+    "posX": 8.599999999999998,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0003a",
+   "Name": "Custom_Tile",
+   "Nickname": "conveyor",
+   "Transform": {
+    "posX": 11.0,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0003b",
+   "Name": "Custom_Tile",
+   "Nickname": "conveyor",
+   "Transform": {
+    "posX": 13.399999999999999,
+    "posY": 1.2,
+    "posZ": -2.5999999999999996,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/conveyor.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0003c",
+   "Name": "Custom_Tile",
+   "Nickname": "bowing_figure",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0003d",
+   "Name": "Custom_Tile",
+   "Nickname": "bowing_figure",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0003e",
+   "Name": "Custom_Tile",
+   "Nickname": "bowing_figure",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0003f",
+   "Name": "Custom_Tile",
+   "Nickname": "bowing_figure",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00040",
+   "Name": "Custom_Tile",
+   "Nickname": "bowing_figure",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/bowing_figure.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00041",
+   "Name": "Custom_Tile",
+   "Nickname": "number_3",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_3.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_3.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00042",
+   "Name": "Custom_Tile",
+   "Nickname": "number_4",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_4.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_4.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00043",
+   "Name": "Custom_Tile",
+   "Nickname": "number_5",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_5.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_5.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00044",
+   "Name": "Custom_Tile",
+   "Nickname": "number_6",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_6.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_6.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00045",
+   "Name": "Custom_Tile",
+   "Nickname": "number_7",
+   "Transform": {
+    "posX": 8.599999999999998,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_7.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_7.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00046",
+   "Name": "Custom_Tile",
+   "Nickname": "number_8",
+   "Transform": {
+    "posX": 11.0,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_8.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_8.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00047",
+   "Name": "Custom_Tile",
+   "Nickname": "number_9",
+   "Transform": {
+    "posX": 13.399999999999999,
+    "posY": 1.2,
+    "posZ": -5.0,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_9.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_9.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00048",
+   "Name": "Custom_Tile",
+   "Nickname": "number_10",
+   "Transform": {
+    "posX": -13.0,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_10.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_10.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00049",
+   "Name": "Custom_Tile",
+   "Nickname": "number_11",
+   "Transform": {
+    "posX": -10.6,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_11.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_11.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0004a",
+   "Name": "Custom_Tile",
+   "Nickname": "number_12",
+   "Transform": {
+    "posX": -8.2,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_12.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_12.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0004b",
+   "Name": "Custom_Tile",
+   "Nickname": "number_13",
+   "Transform": {
+    "posX": -5.800000000000001,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_13.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_13.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0004c",
+   "Name": "Custom_Tile",
+   "Nickname": "number_14",
+   "Transform": {
+    "posX": -3.4000000000000004,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_14.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_14.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0004d",
+   "Name": "Custom_Tile",
+   "Nickname": "number_15",
+   "Transform": {
+    "posX": -1.0,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_15.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_15.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0004e",
+   "Name": "Custom_Tile",
+   "Nickname": "number_16",
+   "Transform": {
+    "posX": 1.3999999999999986,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_16.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_16.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p0004f",
+   "Name": "Custom_Tile",
+   "Nickname": "number_17",
+   "Transform": {
+    "posX": 3.8000000000000007,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_17.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_17.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "p00050",
+   "Name": "Custom_Tile",
+   "Nickname": "number_18",
+   "Transform": {
+    "posX": 6.199999999999999,
+    "posY": 1.2,
+    "posZ": -7.399999999999999,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "scaleZ": 1
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/pieces/number_18.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/pieces/number_18.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 2,
+     "Thickness": 0.1,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  }
+ ]
+}

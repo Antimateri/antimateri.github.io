@@ -1,0 +1,1074 @@
+{
+ "SaveName": "",
+ "GameMode": "",
+ "Date": "",
+ "VersionNumber": "",
+ "GameType": "",
+ "GameComplexity": "",
+ "Tags": [],
+ "Gravity": 0.5,
+ "PlayArea": 0.5,
+ "Table": "",
+ "Sky": "",
+ "Note": "",
+ "TabStates": {},
+ "LuaScript": "",
+ "LuaScriptState": "",
+ "XmlUI": "",
+ "ObjectStates": [
+  {
+   "GUID": "a0000",
+   "Name": "Custom_Tile",
+   "Nickname": "fountain_1",
+   "Transform": {
+    "posX": -17.5,
+    "posY": 1.5,
+    "posZ": 9,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/fountain_1.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/fountain_1.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0001",
+   "Name": "Custom_Tile",
+   "Nickname": "fountain_2",
+   "Transform": {
+    "posX": -10.5,
+    "posY": 1.5,
+    "posZ": 9,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/fountain_2.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/fountain_2.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0002",
+   "Name": "Custom_Tile",
+   "Nickname": "armor_pile_1",
+   "Transform": {
+    "posX": -3.5,
+    "posY": 1.5,
+    "posZ": 9,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/armor_pile_1.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/armor_pile_1.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0003",
+   "Name": "Custom_Tile",
+   "Nickname": "shell_0",
+   "Transform": {
+    "posX": 3.5,
+    "posY": 1.5,
+    "posZ": 9,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_0.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_0.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0004",
+   "Name": "Custom_Tile",
+   "Nickname": "chest_1",
+   "Transform": {
+    "posX": 10.5,
+    "posY": 1.5,
+    "posZ": 9,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/chest_1.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/chest_1.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0005",
+   "Name": "Custom_Tile",
+   "Nickname": "chest_2",
+   "Transform": {
+    "posX": 17.5,
+    "posY": 1.5,
+    "posZ": 9,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/chest_2.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/chest_2.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0006",
+   "Name": "Custom_Tile",
+   "Nickname": "shell_1",
+   "Transform": {
+    "posX": -17.5,
+    "posY": 1.5,
+    "posZ": 2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_1.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_1.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0007",
+   "Name": "Custom_Tile",
+   "Nickname": "shell_2",
+   "Transform": {
+    "posX": -10.5,
+    "posY": 1.5,
+    "posZ": 2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_2.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_2.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0008",
+   "Name": "Custom_Tile",
+   "Nickname": "well",
+   "Transform": {
+    "posX": -3.5,
+    "posY": 1.5,
+    "posZ": 2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/well.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/well.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a0009",
+   "Name": "Custom_Tile",
+   "Nickname": "armor_pile_2",
+   "Transform": {
+    "posX": 3.5,
+    "posY": 1.5,
+    "posZ": 2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/armor_pile_2.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/armor_pile_2.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "a000a",
+   "Name": "Custom_Tile",
+   "Nickname": "shell_3",
+   "Transform": {
+    "posX": 10.5,
+    "posY": 1.5,
+    "posZ": 2,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_3.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/shell_3.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": ""
+  },
+  {
+   "GUID": "blankstk",
+   "Name": "Custom_Tile_Stack",
+   "Nickname": "blank (stack)",
+   "Transform": {
+    "posX": -10.5,
+    "posY": 1.5,
+    "posZ": -5,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": "",
+   "ContainedObjects": [
+    {
+     "GUID": "blankstk00",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 1.5,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk01",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 1.9,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk02",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 2.3,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk03",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 2.7,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk04",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 3.1,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk05",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 3.5,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk06",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 3.9000000000000004,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk07",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 4.300000000000001,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk08",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 4.7,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "blankstk09",
+     "Name": "Custom_Tile",
+     "Nickname": "blank",
+     "Transform": {
+      "posX": -10.5,
+      "posY": 5.1,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/blank.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    }
+   ]
+  },
+  {
+   "GUID": "trapstk",
+   "Name": "Custom_Tile_Stack",
+   "Nickname": "trap (stack)",
+   "Transform": {
+    "posX": 3.5,
+    "posY": 1.5,
+    "posZ": -5,
+    "rotX": 0,
+    "rotY": 180,
+    "rotZ": 0,
+    "scaleX": 2.0,
+    "scaleY": 2.0,
+    "scaleZ": 2.0
+   },
+   "CustomImage": {
+    "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+    "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+    "ImageScalar": 1.0,
+    "WidthScale": 0.0,
+    "CustomTile": {
+     "Type": 1,
+     "Thickness": 0.2,
+     "Stackable": true,
+     "Stretch": true
+    }
+   },
+   "LuaScript": "",
+   "LuaScriptState": "",
+   "ContainedObjects": [
+    {
+     "GUID": "trapstk00",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 1.5,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk01",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 1.9,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk02",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 2.3,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk03",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 2.7,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk04",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 3.1,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk05",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 3.5,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk06",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 3.9000000000000004,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk07",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 4.300000000000001,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk08",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 4.7,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk09",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 5.1,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk0a",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 5.5,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    },
+    {
+     "GUID": "trapstk0b",
+     "Name": "Custom_Tile",
+     "Nickname": "trap",
+     "Transform": {
+      "posX": 3.5,
+      "posY": 5.9,
+      "posZ": -5,
+      "rotX": 0,
+      "rotY": 180,
+      "rotZ": 0,
+      "scaleX": 2.0,
+      "scaleY": 2.0,
+      "scaleZ": 2.0
+     },
+     "CustomImage": {
+      "ImageURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageSecondaryURL": "file:///REPLACE_BASE_PATH/flat_top_rotated/trap.png",
+      "ImageScalar": 1.0,
+      "WidthScale": 0.0,
+      "CustomTile": {
+       "Type": 1,
+       "Thickness": 0.2,
+       "Stackable": true,
+       "Stretch": true
+      }
+     },
+     "LuaScript": "",
+     "LuaScriptState": ""
+    }
+   ]
+  }
+ ]
+}
