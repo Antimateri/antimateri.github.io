@@ -68,8 +68,8 @@ The game needs the following components:
   - 3 trap token
   - 3 no-aggression token
   - 1 beacon token
-  - 16 number tokens (enumerated from 3 to 18)
-- 3 d6 dices (for randomness)
+  - 16 number tokens (enumerated from 2 to 18)
+- 1d8 and 1d10 dices (for randomness)
 - 6 player pieces
 - Pockets (6 for each player)
 
@@ -110,9 +110,9 @@ And for 6:
 
 In this boards the green tiles are starting tiles, the orange tiles are fountains, treasures or armories, the brown tiles are traps, the light gray tiles are empty tiles and the dark grey tile is the well.
 
-After setting up a disposition a different number from the number tokens must be assigned to every empty tile, fountain, treasure and armory. Then, a single object token must be assigned to every trap tile which will indicate the object used to not being affected it.
+After setting up a disposition a different number from the number tokens must be assigned to every empty tile, fountain, treasure, armory and the well. Then, a single object token must be assigned to every trap tile which will indicate the object used to not being affected it.
 
-Finally, two monsters will spawn in random tiles of the map.
+Finally, two monsters will appear in random tiles of the map.
 
 
 ### Players
@@ -125,7 +125,7 @@ Put three cards from the objects deck face up next to the board, this will be th
 
 ### Stocking
 
-From the Nightmare deck, put a single Nightmare in 2 random tiles. From the objects deck, put a single object in each armoury tile, put two coins in each treasure tile and put a 5 point card in each fountain tile.
+From the Nightmare deck, distribute 2 Nightmares in 2 random tiles. From the objects deck, put a single object in each armoury tile, put two coins in each treasure tile, put a 5 point token in each fountain tile and put 2 wish crystals in the well.
 
 ## Game Round Structure
 
@@ -151,6 +151,7 @@ Players take turns in clockwise order, during their turn they can perform 1 or 2
   - Armories: Collect one object in the tile.
   - Fountains: Paying 1 coin, collect 5 points in the tile.
   - Trash: Pay 1 coin, put an object you own into the discard pile.
+  - Well: Pay 15 points, take a wish crystal from the well or discard an object and gain 3 coins.
   - Rooms with points/object: Collect the points or object in the tile.
 
 - **Buy**
@@ -170,6 +171,7 @@ This step ends when all players have either passed or used all their pockets.
 - **Treasure tiles** receive 2 coins if they are empty.
 - **Fountains** receive 1 point card if they are empty.
 - **Armories** receive 1 object (face-down) if they are empty.
+- **Well** receives wish crystals until it has 2.
 
 ### 3. Random Enemy Spawn
 Put a number of enemies equal to the current round number +2 in the board. For each enemy decide a random tile and put it there, if there are more than 3 enemies in a tile after putting the new enemy there, select another tile at random.
@@ -220,24 +222,24 @@ This are the objects used in the second prototype:
 
 | Name | A/P | Type | Cost | Description |
 |---|---|---|---|---|
-| AloField | A | - | 6 | Avoid all damage until the end of your turn. |
+| AloField | A | - | 6 | Avoid all damage until the end of your turn, including the damage that could be received while using this object. |
 | AP Portal | A | - | 6 | Move a character to another tile. |
 | Blink | P | - | 7 | At end of your turn you may disappear. Reappear one move action away at round's end. |
 | Bomb | A | Attack | 5 | Deal 5 damage to everyone in the room. |
 | Broken Extending Hand | A | Attack | 5 | When you hit someone destroy one of their items instead of dealing damage. |
 | Cavalry Lance | P | - | 7 | When moving and passing trough a tile (not starting or ending there) you may perform a 2 damage attack. |
-| Collector's Eye | P | - | 6 | Choose between an armory item and the top shop item when searching. |
+| Collector's Eye | P | - | 6 | When obtaining an item while searching, choose between the obtained item and the top shop item and discard the other. |
 | Concrete Mixer | A | Attack | 5 | Remove an obstacle. |
 | Constitution Belt | P | - | 6 | Whenever you gain health gain double health. |
 | Crane | A | - | 6 | Swap the positions of two rooms with everything they contain. |
 | Deja Vu Machine | A | - | 7 | Recover 1 pocket, you may activate an additional pocket this turn. |
 | Dream Extractor | P | - | 6 | Gain 1 extra point per nightmare killed. |
-| Echo Chamber | A | - | 6 | The next action you take can be performed twice. |
+| Echo Chamber | A | - | 7 | The next action you take can be performed twice. |
 | Ectoplasm | P | - | 6 | Increase movement by 5 but reduce damage by 2. |
 | Emergency Time Jump | A | Movement | 5 | Teleport to any room. |
 | Ensnaring Strike | A | Attack | 6 | Make an attack and prevent the attacked player from leaving their tile until the end of their next turn. |
 | Explorer's Manual | P | - | 7 | When searching, search twice. |
-| Extending Hand | A | Attack | 7 | When you hit someone steal a random item instead of dealing damage. |
+| Extending Hand | A | Attack | 7 | When you hit an enemy, steal a random item instead of dealing damage (Bosses have items). |
 | Fear Toxin | A | Attack | 6 | Spawn a Nightmare. |
 | Forgotten Dream | A | - | 6 | Take a random item from the discarded item deck. |
 | Grappling Hook | A | Movement | 6 | Move in one direction until you cannot move further. |
@@ -291,8 +293,8 @@ When a player is in a tile with Nightmares  or a trap, and they use a pocket, th
 
 - 1. Player uses a pocket in a tile with Nightmares or a trap.
 - 2. Player receives damage from the Nightmares or the trap in that tile.
-- 3. Player performs the action they wanted to perform with the pocket.
-- 4. The player checks if they are dead and they act accordingly.
+- 3. Player checks if they are dead and they act accordingly.
+- 4. The action the player was performing resolves (if the player would gain any benefits they still gain them even if they are dead).
 
 ### Nightmares
 
@@ -336,9 +338,9 @@ This are the bosses and nightmares used in the second prototype:
 | # | Name | Attack | Life | Effect | Item | Points | Coins | Appearances |
 |---|------|--------|------|--------|------|--------|-------|-------------|
 | 1 | Basophobia | 3 | 10 | Whenever this nightmare receives damage, it moves to a random adjacent tile. | Spring shoes | 24 | 12 | 1 |
-| 2 | Enochlophobia | 1 | 1 | At the end of each turn, this nightmare creates a copy of itself in each adjacent empty room. | Self-Replicating Armor | 12 | 12 | 1 |
+| 2 | Enochlophobia | 1 | 1 | At the end of each turn, this nightmare creates a copy of itself in each adjacent valid room (not containing other nightmares or modifications). The boss is declared dead when all its copies are defeated. | Explorer's Manual | 12 | 12 | 1 |
 | 3 | Catoptrophobia | 2 | 12 | Whenever this nightmare receives damage, create a copy of itself without this ability in the current tile. | Normal Pocket | 24 | 12 | 1 |
-| 4 | Peniaphobia | 3 | 10 | When you receive an attack from this nightmare, one of your unused pockets is used up at random. | Deja Vu Machine | 24 | 12 | 1 |
+| 4 | Peniaphobia | 3 | 10 | When you receive an attack from this nightmare, one of your unused pockets is used up at random. | Echo Chamber | 24 | 12 | 1 |
 | 5 | Topophobia | 3 | 10 | When this nightmare deals damage to a player, that player is teleported to a random Room. | Cavalry Lance | 24 | 12 | 1 |
 | 6 | Microphobia | 1 | 1 | | | 2 | 0 | 15 |
 | 7 | Phobia | 3 | 3 | | | 3 | 1 | 20 |
@@ -357,6 +359,8 @@ Some objects can add a modification to a tile, this modifications are signified 
  - **Spatial inestability**: Whenever a player enters or passes through this room, they are teleported to a random tile.
  - **Trap**: Whenever a player uses a pocket in this room or moves through it they receive 3 damage.
  - **No agression field**: No damage can be done or be recieved in the affected tile.
+
+There are also breakable objects with 1 life point and whose behavior is described in the object using them, these objects are: **Beacon** and **Drone**.
 
 ## Death and stealing points
 
@@ -384,7 +388,7 @@ Treasure tiles are tiles that can contain coins, when a player searches in a non
 
 The Well is a tile where players can submit points to obtain a wish crystal. When a player searches in the Well, if they have at least 15 points, they can pay 15 points to obtain a wish crystal.
 
-In wells players can also discard objects, when a player searches in a Well tile they can discard an object they own to gain 3 coins.
+In wells, players can also discard objects, when a player searches in a Well tile they can discard an object they own to gain 3 coins.
 
 ## Ending the game
 
