@@ -1,5 +1,5 @@
 ---
-title: "Wishchasers (Boardgame) - second Prototype"
+title: "Wishchasers (Boardgame) - Second Prototype"
 description: "In here I describe the design process of the Wishchasers prototype second big iteration and its rules."
 tags:
   - Boardgames
@@ -311,19 +311,6 @@ These are the objects used in the second prototype. The **Uses** column shows ho
 
 The five boss-only objects are: Spring Shoes, Explorer's Manual, Normal Pocket, Echo Chamber and Cavalry Lance.
 
-## Damage: when does it trigger?
-
-| Situation | Damage? |
-|---|---|
-| You use a pocket in a tile with Nightmares or a boss (any action, including Move) | Yes, at the tile where you are when you use the pocket. |
-| You move out of a Nightmare tile | Yes, because the Move action used a pocket there. |
-| You move through or into a Nightmare tile without using a pocket in it | No. |
-| You use a pocket in a trap tile or in a tile with a trap token | Yes, 3 damage (unless you have the required object for a trap tile). |
-| You move through a trap tile or a tile with a trap token | Yes, 3 damage (unless you have the required object for a trap tile). |
-| Any of the above in a tile with a no-aggression field | No. |
-
-If you are acting through a drone, the effects of the drone's tile affect the drone, not you.
-
 ## Traps and Nightmares
 
 Trap tiles and tiles with Nightmares are tiles where a player receives damage when they use a pocket in that tile. The order is:
@@ -404,7 +391,7 @@ Some objects can add a modification to a tile. These modifications are signified
 
 There are also breakable tokens with 1 life point, whose behavior is described in the object that creates them: **Beacon** and **Drone**.
 
-- A **drone** is created by the Remote-Controlled Robot. While you have a drone you may act as if you were in its tile, and all effects of that tile (damage, Nightmares, modifications) affect the drone, not you. When the drone is destroyed, you lose the ability until you create a new one (using the object's action again).
+- A **drone** is created by the Remote-Controlled Robot. While there is a drone in play and you have the Remote-Controlled Robot object, you may act as if you were in its tile, and all effects of that tile (damage, Nightmares, modifications) affect the drone, not you. When the drone is destroyed, you lose the ability until you create a new one (using the object's action again).
 - A **beacon** is a single token on the board (see Lich Heart and Teleport Beacon).
 
 The Concrete Mixer can remove a trap or a trap token. Removing a trap tile turns it into a plain tile without a number. Removing a trap token only removes the token.
