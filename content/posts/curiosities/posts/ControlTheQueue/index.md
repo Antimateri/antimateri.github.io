@@ -57,7 +57,7 @@ In the case of the interaction cards, the "Queue" effect is divided into two par
 
 ### List of cards
 
-![List of cards]({{< fullimg "images/cards.webp" > }})
+![List of cards]({{< fullimg "images/cards.webp" >}})
 
 The green cards represent the cards giving ROM, the black cards are the observers, cards that stay in the queue and provide passive benefits. The purple cards are the control cards, which give you control over the computer and are meant to be the way the game ends. The blue cards are the action cards, which provide a one-time effect when executed. Finally, the red cards are the interaction cards, which can be sent to an opponent's queue to disrupt their strategy and have different effects depending on whether they are in their owner's queue or not.
 
