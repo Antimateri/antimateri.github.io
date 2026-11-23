@@ -79,7 +79,7 @@ I include below a comprehensive list of all the cards in the game:
 | 12 | Defragmenter | 3 | 3 | Action | Trash up to 3 cards from your hand or discard pile<br>Draw that many cards | Move a card from a queue you control up to 1 position back twice |
 | 13 | Prefetch | 2 | 3 | Action | If you were to draw cards this upload, draw that many cards + 1<br>Draw a card | RAM +3 |
 | 14 | Kill Process | 4 | 3 | Action | Remove a card from an opponent’s queue<br>Draw a card | RAM +4 |
-| 15 | Brute force | 8 | 3 | Control | Gain 20 control | RAM +3 |
+| 15 | Brute force | 12 | 3 | Control | Gain 20 control | RAM +3 |
 | 16 | Voltage Tap | 7 | 3 | Observer | While this card is on the queue, whenever an opponent generates RAM you may generate that much RAM | Move a card from a queue you control one position back |
 | 17 | Looping Daemon | 5 | 4 | Control | Gain 10 control<br>Put this card at the end of the queue | RAM +1 |
 | 18 | Overclock | 1 | 4 | Action | Reduce by 1 RAM the cost of every card you execute this upload<br>Draw a card | RAM +3 |
