@@ -65,36 +65,36 @@ I include below a comprehensive list of all the cards in the game:
 
 | ID | Name | RAM | ROM | Type | Queue | Use |
 |---:|------|----:|----:|------|-------|-----|
-| 1 | Download ROM | 10 | 0 | ROM | ROM +1 | RAM +15 |
-| 2 | Download RAM | 5 | 0 | Action | RAM +25 | RAM +5 |
-| 3 | Cache Fetch | 10 | 1 | Action | Draw 2 cards | RAM +15 |
-| 4 | Packet Injection | 20 | 1 | Interaction | **In its owner's queue:** Gain RAM +40 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this program draws a card | Put an interaction card into an opponent’s queue |
-| 5 | Garbage Collector | 5 | 1 | Action | Discard any number of cards, draw that many cards + 1 | RAM +15 |
-| 6 | Emergency reboot | 5 | 1 | Action | RAM +25 | Discard all cards from your queue |
-| 7 | Bulk Download | 15 | 2 | Action | Draw 3 cards | RAM +10 |
-| 8 | Stack Recovery | 10 | 2 | Action | Discard a card from the queue<br>Draw 1 card<br>Put a card from your discard pile into your hand | Move a card from a queue you control up to 1 position back |
-| 9 | Buffer Flush | 10 | 2 | Action | Draw 2 cards<br>Every opponent discards a card | RAM +15 |
-| 10 | Flash Upgrade | 20 | 2 | ROM | ROM +2 | RAM +20 |
-| 11 | Trojan Horse | 10 | 3 | Interaction | **In its owner's queue:** Gain RAM +25 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this card gets 5 control from you | Put an interaction card into an opponent’s queue |
-| 12 | Defragmenter | 15 | 3 | Action | Trash up to 3 cards from your hand or discard pile<br>Draw that many cards | Move a card from a queue you control up to 1 position back twice |
-| 13 | Prefetch | 10 | 3 | Action | If you were to draw cards this upload, draw that many cards + 1<br>Draw a card | RAM +15 |
-| 14 | Kill Process | 20 | 3 | Action | Remove a card from an opponent’s queue<br>Draw a card | RAM +20 |
-| 15 | Brute force | 40 | 3 | Control | Gain 20 control | RAM +15 |
-| 16 | Voltage Tap | 35 | 3 | Observer | While this card is on the queue, whenever an opponent generates RAM you may generate that much RAM | Move a card from a queue you control one position back |
-| 17 | Looping Daemon | 20 | 4 | Control | Gain 10 control<br>Put this card at the end of the queue | RAM +5 |
-| 18 | Overclock | 5 | 4 | Action | Reduce by 5 RAM the cost of every card you execute this upload<br>Draw a card | RAM +15 |
-| 19 | BIOS Rewrite | 30 | 4 | ROM | ROM +3 | RAM +30 |
-| 20 | Packet Sniffer | 35 | 4 | Observer | While this card is on the queue, whenever a card executed by an opponent draws one or more cards you draw a card<br>Draw a card | Move a card from a queue you control up to 1 position back |
-| 21 | Import Hook | 35 | 4 | Observer | While this card is on the queue, whenever an opponent imports a card you may import a card costing at most 2 ROM less | Move a card from a queue you control one position back |
-| 22 | Self-replication | 25 | 4 | ROM | Gain 1 ROM for every card you have executed this upload (counting this one) | RAM +15 |
-| 23 | System Crash | 15 | 4 | Observer | Discard all cards from all queues, draw a card for every card discarded this way | Put an interaction card into another player’s queue |
-| 24 | Dynamic algorithm | 20 | 5 | Control | ROM -3<br>Gain 20 control | RAM +5 |
-| 25 | Memory Leak | 10 | 5 | Action | Draw a card<br>Put this card at the end of the queue | RAM +20 |
-| 26 | Logic Bomb | 20 | 5 | Interaction | **In its owner's queue:** Gain RAM +35 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this is in your queue if a card in your queue would make you draw one or more cards, the owner of this card draws them instead | Put an interaction card into another player’s queue |
-| 27 | Multitasking | 20 | 5 | ROM | ROM -3<br>Create a new queue | Move a card from a queue you control to the back of a queue you control |
-| 28 | Thread Hijack | 15 | 6 | Control | Gain 2 control for every card currently in the queue | RAM +5 |
-| 29 | Chain Exploit | 10 | 6 | Control | Gain 4 control for every card executed this upload (including this one) | RAM +15 |
-| 30 | RAM siphoning | 20 | 6 | Interaction | **In its owner's queue:** Gain RAM +25 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this card is on a queue, every card in this queue costs 5 more RAM and every card in its owner’s queue costs 5 less RAM | Put an interaction card into another player’s queue |
+| 1 | Download ROM | 2 | 0 | ROM | ROM +1 | RAM +3 |
+| 2 | Download RAM | 1 | 0 | Action | RAM +5 | RAM +1 |
+| 3 | Cache Fetch | 2 | 1 | Action | Draw 2 cards | RAM +3 |
+| 4 | Packet Injection | 4 | 1 | Interaction | **In its owner's queue:** Gain RAM +8 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this program draws a card | Put an interaction card into an opponent’s queue |
+| 5 | Garbage Collector | 1 | 1 | Action | Discard any number of cards, draw that many cards + 1 | RAM +3 |
+| 6 | Emergency reboot | 1 | 1 | Action | RAM +5 | Discard all cards from your queue |
+| 7 | Bulk Download | 3 | 2 | Action | Draw 3 cards | RAM +2 |
+| 8 | Stack Recovery | 2 | 2 | Action | Discard a card from the queue<br>Draw 1 card<br>Put a card from your discard pile into your hand | Move a card from a queue you control up to 1 position back |
+| 9 | Buffer Flush | 2 | 2 | Action | Draw 2 cards<br>Every opponent discards a card | RAM +3 |
+| 10 | Flash Upgrade | 4 | 2 | ROM | ROM +2 | RAM +4 |
+| 11 | Trojan Horse | 2 | 3 | Interaction | **In its owner's queue:** Gain RAM +5 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this card gets 5 control from you | Put an interaction card into an opponent’s queue |
+| 12 | Defragmenter | 3 | 3 | Action | Trash up to 3 cards from your hand or discard pile<br>Draw that many cards | Move a card from a queue you control up to 1 position back twice |
+| 13 | Prefetch | 2 | 3 | Action | If you were to draw cards this upload, draw that many cards + 1<br>Draw a card | RAM +3 |
+| 14 | Kill Process | 4 | 3 | Action | Remove a card from an opponent’s queue<br>Draw a card | RAM +4 |
+| 15 | Brute force | 8 | 3 | Control | Gain 20 control | RAM +3 |
+| 16 | Voltage Tap | 7 | 3 | Observer | While this card is on the queue, whenever an opponent generates RAM you may generate that much RAM | Move a card from a queue you control one position back |
+| 17 | Looping Daemon | 5 | 4 | Control | Gain 10 control<br>Put this card at the end of the queue | RAM +1 |
+| 18 | Overclock | 1 | 4 | Action | Reduce by 1 RAM the cost of every card you execute this upload<br>Draw a card | RAM +3 |
+| 19 | BIOS Rewrite | 6 | 4 | ROM | ROM +3 | RAM +6 |
+| 20 | Packet Sniffer | 7 | 4 | Observer | While this card is on the queue, whenever a card executed by an opponent draws one or more cards you draw a card<br>Draw a card | Move a card from a queue you control up to 1 position back |
+| 21 | Import Hook | 7 | 4 | Observer | While this card is on the queue, whenever an opponent imports a card you may import a card costing at most 2 ROM less | Move a card from a queue you control one position back |
+| 22 | Self-replication | 5 | 4 | ROM | Gain 1 ROM for every card you have executed this upload (counting this one) | RAM +3 |
+| 23 | System Crash | 3 | 4 | Observer | Discard all cards from all queues, draw a card for every card discarded this way | Put an interaction card into another player’s queue |
+| 24 | Dynamic algorithm | 4 | 5 | Control | ROM -3<br>Gain 20 control | RAM +1 |
+| 25 | Memory Leak | 3 | 5 | Action | Draw a card<br>Put this card at the end of the queue | RAM +4 |
+| 26 | Logic Bomb | 4 | 5 | Interaction | **In its owner's queue:** Gain RAM +7 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this is in your queue if a card in your queue would make you draw one or more cards, the owner of this card draws them instead | Put an interaction card into another player’s queue |
+| 27 | Multitasking | 4 | 5 | ROM | ROM -3<br>Create a new queue | Move a card from a queue you control to the back of a queue you control |
+| 28 | Thread Hijack | 3 | 6 | Control | Gain 2 control for every card currently in the queue | RAM +1 |
+| 29 | Chain Exploit | 2 | 6 | Control | Gain 4 control for every card executed this upload (including this one) | RAM +3 |
+| 30 | RAM siphoning | 4 | 6 | Interaction | **In its owner's queue:** Gain RAM +5 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this card is on a queue, every card in this queue costs 1 more RAM and every card in its owner’s queue costs 1 less RAM | Put an interaction card into another player’s queue |
 
 The basic ROM cards are the following:
 - **DOWNLOAD ROM**
@@ -109,7 +109,8 @@ Now that we know what a card looks like is time for us to see what is this queue
 
 Every player has (at least) one queue that starts empty, when a player wants to execute a card they must put it in the back of one of their queues. The queue is a first-in-first-out structure, meaning that the first card in the queue is the first one to be executed. In other words, to execute the card in the back of the queue, a player must first execute all the cards in front of it.
 
-How do you execute a card? By discarding any number of cards in your hand you usually generate RAM you can use to execute all cards you can fully pay for in the queue in order, until you reach a card that you cannot pay for or the queue becomes empty. When this happens all remaining RAM will be lost and all executed cards will go to the discard pile. When a card is executed, its "Queue" effect is resolved. 
+How do you execute a card? By discarding any number of cards in your hand you usually generate RAM you can use to execute all cards you can fully pay for in the queue in order, until you reach a card that you cannot pay for or the queue becomes empty. When this happens all remaining RAM will be lost and all executed cards will go to the discard pile. When a card is executed, its "Queue" effect is resolved in order from top to bottom, if an action in the card can not be resolved, any actions below it will not be resolved either. For example, the card "DYNAMIC ALGORITHM" has a "Queue" effect that gives you 20 control, but it also has a "ROM -3" effect. If you do not have enough ROM to pay for the "ROM -3" effect, you will not gain the 20 control.
+
 The process of, given some RAM, executing cards in the queue until it is no longer possible is called an "upload".
 
 ### Player Turns
@@ -133,6 +134,23 @@ She decides to end her turn (as she does't have any more cards to discard or put
 ## Ending the game
 
 The game ends the moment the total control of all players has reached 100, if the last player had generated enough control to put the total control beyond 100 the surplus control is lost. The player with the highest control wins the game, if there is a tie, the total ROM value of the cards in the players' decks is used as a tiebreaker.
+
+## Two player variant
+
+The game is designed and balanced for 4 players, for that reason when only 2 players are playing, the RAM cost of interaction cards is doubled and the queue effect of observer cards is enhanced.
+
+More precisely, this are the information for interaction and observer cards in a 2 player game:
+
+| ID | Name | RAM | ROM | Type | Queue | Use |
+|---:|------|----:|----:|------|-------|-----|
+| 4 | Packet Injection | 8 | 1 | Interaction | **In its owner's queue:** Gain RAM +8 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this program draws a card | Put an interaction card into an opponent’s queue |
+| 11 | Trojan Horse | 4 | 3 | Interaction | **In its owner's queue:** Gain RAM +5 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this card gets 5 control from you | Put an interaction card into an opponent’s queue |
+| 26 | Logic Bomb | 8 | 5 | Interaction | **In its owner's queue:** Gain RAM +7 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this is in your queue if a card in your queue would make you draw one or more cards, the owner of this card draws them instead | Put an interaction card into another player’s queue |
+| 30 | RAM siphoning | 8 | 6 | Interaction | **In its owner's queue:** Gain RAM +5 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this card is on a queue, every card in this queue costs 1 more RAM and every card in its owner’s queue costs 1 less RAM | Put an interaction card into another player’s queue |
+| 16 | Voltage Tap | 7 | 3 | Observer | While this card is on the queue, whenever an opponent generates RAM you may generate twice that much RAM | Move a card from a queue you control one position back |
+| 20 | Packet Sniffer | 7 | 4 | Observer | While this card is on the queue, whenever a card executed by an opponent draws one or more cards you draw 2 cards<br>Draw a card | Move a card from a queue you control up to 1 position back |
+| 21 | Import Hook | 7 | 4 | Observer | While this card is on the queue, whenever an opponent imports a card you may import a card costing at most the same ROM | Move a card from a queue you control one position back |
+| 23 | System Crash | 3 | 4 | Observer | Discard all cards from all queues, draw 2 cards for every card discarded this way | Put an interaction card into another player’s queue |
 
 
 
