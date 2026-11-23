@@ -35,7 +35,7 @@ The game only needs the following components: 30 decks, one for every different 
 
 ## Setup
 
-Select 3 control cards and put their decks in a table next to the decks of the 3 basic ROM cards and the basic RAM card. Choose then 10 other decks which synergies with the control. Finally, for each player build an initial deck with 6 copies of the "DOWNLOAD ROM" card and 2 copies of the "DOWNLOAD RAM" card. Each player shuffles their deck and draws 5 cards.
+Select 3 control cards and put their decks in a table next to the decks of the 3 basic ROM cards and the basic RAM card. Choose then 10 other decks which synergies with the control cards. Finally, for each player build an initial deck with 6 copies of the "DOWNLOAD ROM" card and 2 copies of the "DOWNLOAD RAM" card. Each player shuffles their deck and draws 5 cards.
 
 Each player starts with 0 control and 1 queue, which starts empty.
 
@@ -47,7 +47,7 @@ The game is a deckbuilder, as such the cards are the most essential part of the 
 
 Each card has the following information:
 - **Name**: On the top center, the name of the card.
-- **RAM**: On the top left (and the bottom right in the case of the interaction cards) the amount of RAM the card needs to be played (executed).
+- **RAM**: On the top left (and the bottom right in the case of the interaction cards) the amount of RAM the card needs to be played (**executed**).
 - **ROM**: On the top right, the amount of ROM required to obtain the card.
 - **Type**: The type of the card (ROM, Action, Interaction and Control. Mostly irrelevant during play).
 - **Queue**: The effect the card has when executed from a queue.
@@ -122,7 +122,11 @@ Finally, the player draws or discards cards until they have 5 in their hand.
 
 ### Example of a turn:
 
-Alice has just started the game and has 5 cards in her hand: 4 "DOWNLOAD ROM" and 1 "DOWNLOAD RAM". She puts the "DOWNLOAD RAM" card in her queue first and then 3 "DOWNLOAD ROM" cards. She discards the last "DOWNLOAD ROM" card to generate 15 RAM. She executes the "DOWNLOAD RAM" card for 5 RAM, which gives her 25 RAM so she has 35 RAM available. Because there is enough RAM available, she executes the first "DOWNLOAD ROM" card for 10 RAM, which gives her 1 ROM. She executes the second "DOWNLOAD ROM" card for 10 RAM, which gives her another ROM. Finally, she executes the last "DOWNLOAD ROM" card for 10 RAM, which gives her a third ROM. She has now executed all cards in her queue and has 5 RAM left which as the upload has ended are lost. 
+Alice has just started the game and has 5 cards in her hand: 4 "DOWNLOAD ROM" and 1 "DOWNLOAD RAM". She puts the "DOWNLOAD RAM" card in her queue first and then 3 "DOWNLOAD ROM" cards.
+
+In that moment Bob discards a "DOWNLOAD ROM" card from his hand to generate 15 RAM, which he uses to execute a "TROJAN HORSE" card, which was the only card on his queue. This card gives him 25 RAM that is immediately lost due to the queue being empty, and is put at the end of Carol's queue due to its queue effect.
+
+Alice then discards her last "DOWNLOAD ROM" card to generate 15 RAM. She executes the "DOWNLOAD RAM" card for 5 RAM, which gives her 25 RAM so she has 35 RAM available. Because there is enough RAM available, she executes the first "DOWNLOAD ROM" card for 10 RAM, which gives her 1 ROM. She executes the second "DOWNLOAD ROM" card for 10 RAM, which gives her another ROM. Finally, she executes the last "DOWNLOAD ROM" card for 10 RAM, which gives her a third ROM. She has now executed all cards in her queue and has 5 RAM left which as the upload has ended are lost. 
 
 She decides to end her turn (as she does't have any more cards to discard or put into the queue) so she uses her 3 ROM to import a "TROJAN HORSE" which she takes from its deck and puts into her discard pile. She then has to draw 5 cards, but her deck only has 3 cards left, so she shuffles her discard pile and draws another 2 cards from it.
 
