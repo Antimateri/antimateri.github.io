@@ -61,45 +61,13 @@ In the case of the interaction cards, the "Queue" effect is divided into two par
 
 The green cards represent the cards giving ROM, the black cards are the observers, cards that stay in the queue and provide passive benefits. The purple cards are the control cards, which give you control over the computer and are meant to be the way the game ends. The blue cards are the action cards, which provide a one-time effect when executed. Finally, the red cards are the interaction cards, which can be sent to an opponent's queue to disrupt their strategy and have different effects depending on whether they are in their owner's queue or not.
 
-I include below a comprehensive list of all the cards in the game:
-
-| ID | Name | RAM | ROM | Type | Queue | Use |
-|---:|------|----:|----:|------|-------|-----|
-| 1 | Download ROM | 2 | 0 | ROM | ROM +1 | RAM +3 |
-| 2 | Download RAM | 1 | 0 | Action | RAM +5 | RAM +1 |
-| 3 | Cache Fetch | 2 | 1 | Action | Draw 2 cards | RAM +3 |
-| 4 | Packet Injection | 4 | 1 | Interaction | **In its owner's queue:** Gain RAM +8 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this program draws a card | Put an interaction card into an opponent’s queue |
-| 5 | Garbage Collector | 1 | 1 | Action | Discard any number of cards, draw that many cards + 1 | RAM +3 |
-| 6 | Emergency reboot | 1 | 1 | Action | RAM +5 | Discard all cards from your queue |
-| 7 | Bulk Download | 3 | 2 | Action | Draw 3 cards | RAM +2 |
-| 8 | Stack Recovery | 2 | 2 | Action | Discard a card from the queue<br>Draw 1 card<br>Put a card from your discard pile into your hand | Move a card from a queue you control up to 1 position back |
-| 9 | Buffer Flush | 2 | 2 | Action | Draw 2 cards<br>Every opponent discards a card | RAM +3 |
-| 10 | Flash Upgrade | 4 | 2 | ROM | ROM +2 | RAM +4 |
-| 11 | Trojan Horse | 2 | 3 | Interaction | **In its owner's queue:** Gain RAM +5 and put it into an opponent’s queue<br>**Not in its owner's queue:** The owner of this card gets 5 control from you | Put an interaction card into an opponent’s queue |
-| 12 | Defragmenter | 3 | 3 | Action | Trash up to 3 cards from your hand or discard pile<br>Draw that many cards | Move a card from a queue you control up to 1 position back twice |
-| 13 | Prefetch | 2 | 3 | Action | If you were to draw cards this upload, draw that many cards + 1<br>Draw a card | RAM +3 |
-| 14 | Kill Process | 4 | 3 | Action | Remove a card from an opponent’s queue<br>Draw a card | RAM +4 |
-| 15 | Brute force | 12 | 3 | Control | Gain 20 control | RAM +3 |
-| 16 | Voltage Tap | 7 | 3 | Observer | While this card is on the queue, whenever an opponent generates RAM you may generate that much RAM | Move a card from a queue you control one position back |
-| 17 | Looping Daemon | 5 | 4 | Control | Gain 10 control<br>Put this card at the end of the queue | RAM +1 |
-| 18 | Overclock | 1 | 4 | Action | Reduce by 1 RAM the cost of every card you execute this upload<br>Draw a card | RAM +3 |
-| 19 | BIOS Rewrite | 6 | 4 | ROM | ROM +3 | RAM +6 |
-| 20 | Packet Sniffer | 7 | 4 | Observer | While this card is on the queue, whenever a card executed by an opponent draws one or more cards you draw a card<br>Draw a card | Move a card from a queue you control up to 1 position back |
-| 21 | Import Hook | 7 | 4 | Observer | While this card is on the queue, whenever an opponent imports a card you may import a card costing at most 2 ROM less | Move a card from a queue you control one position back |
-| 22 | Self-replication | 5 | 4 | ROM | Gain 1 ROM for every card you have executed this upload (counting this one) | RAM +3 |
-| 23 | System Crash | 3 | 4 | Observer | Discard all cards from all queues, draw a card for every card discarded this way | Put an interaction card into another player’s queue |
-| 24 | Dynamic algorithm | 4 | 5 | Control | ROM -3<br>Gain 20 control | RAM +1 |
-| 25 | Memory Leak | 3 | 5 | Action | Draw a card<br>Put this card at the end of the queue | RAM +4 |
-| 26 | Logic Bomb | 4 | 5 | Interaction | **In its owner's queue:** Gain RAM +7 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this is in your queue if a card in your queue would make you draw one or more cards, the owner of this card draws them instead | Put an interaction card into another player’s queue |
-| 27 | Multitasking | 4 | 5 | ROM | ROM -3<br>Create a new queue | Move a card from a queue you control to the back of a queue you control |
-| 28 | Thread Hijack | 3 | 6 | Control | Gain 2 control for every card currently in the queue | RAM +1 |
-| 29 | Chain Exploit | 2 | 6 | Control | Gain 4 control for every card executed this upload (including this one) | RAM +3 |
-| 30 | RAM siphoning | 4 | 6 | Interaction | **In its owner's queue:** Gain RAM +5 and put it into an opponent’s queue<br>**Not in its owner's queue:** While this card is on a queue, every card in this queue costs 1 more RAM and every card in its owner’s queue costs 1 less RAM | Put an interaction card into another player’s queue |
-
 The basic ROM cards are the following:
 - **DOWNLOAD ROM**
 - **FLASH UPGRADE**
 - **BIOS REWRITE**
+
+Finally, a couple of clarifications:
+Trash means that the card is removed from the game, queues created stay until the end of the game, removing a crad from a queue discards it. Cards can not move back from the last position.
 
 ## Game turn Structure
 
@@ -107,29 +75,37 @@ Now that we know what a card looks like is time for us to see what is this queue
 
 ### The queue
 
-Every player has (at least) one queue that starts empty, when a player wants to execute a card they must put it in the back of one of their queues. The queue is a first-in-first-out structure, meaning that the first card in the queue is the first one to be executed. In other words, to execute the card in the back of the queue, a player must first execute all the cards in front of it.
+Every player has (at least) one queue that starts empty, when a player wants to execute a card they must put it in the back of one of their queues. The queue is a first-in-first-out structure, meaning that the first card in the queue is the first one to be executed. In other words, to execute the card in the back of the queue, a player must first execute all the cards in front of it. All cards added to a queue in any circumstance will be placed at the back of the queue.
 
-How do you execute a card? By discarding any number of cards in your hand you usually generate RAM you can use to execute all cards you can fully pay for in the queue in order, until you reach a card that you cannot pay for or the queue becomes empty. When this happens all remaining RAM will be lost and all executed cards will go to the discard pile. When a card is executed, its "Queue" effect is resolved in order from top to bottom, if an action in the card can not be resolved, any actions below it will not be resolved either. For example, the card "DYNAMIC ALGORITHM" has a "Queue" effect that gives you 20 control, but it also has a "ROM -3" effect. If you do not have enough ROM to pay for the "ROM -3" effect, you will not gain the 20 control.
+How do you execute a card? By discarding any number of cards in your hand you usually generate RAM which will execute all cards it can be used to fully pay for in the queue in order, until you reach a card that you cannot pay for or the queue becomes empty. When this happens all remaining RAM will be lost and all executed cards will go to the discard pile. You can think of the RAM as a monster that consumes as much as it can and then disappears, the moment it is generated it will execute all cards it can and then disappear.
+
+When a card is executed, its "Queue" effect is resolved in order from top to bottom, if an action in the card can not be resolved, any actions below it will not be resolved either. For example, the card "DYNAMIC ALGORITHM" has a "Queue" effect that gives you 20 control, but it also has a "ROM -3" effect. If you do not have enough ROM to pay for the "ROM -3" effect, you will not gain the 20 control.
 
 The process of, given some RAM, executing cards in the queue until it is no longer possible is called an "upload".
 
 ### Player Turns
 
-So, how does a player turn goes? At the beginning of a player's turn if any of their queues is not empty, the first card of the queue of their choice is executed for free. Then the player draws 5 cards, shuffling their discard pile and drawing from it if their deck is empty. After that, the player can add any number of cards to the deck until their turn is over. At any point, during their turn or any other player's turn, they may discard any number of cards to use their actions, if they generate RAM with the discard, they may choose a queue to execute cards from. The turn ends when the player has no more cards in their hand or they choose to end their turn.
+So, how does a player turn goes? At the beginning of a player's turn if any of their queues is not empty, the first card of the queue of their choice is executed for free. Then the player can add any number of cards to the deck until their turn is over. At any point, during their turn or any other player's turn, they may discard any number of cards to use their actions, if they generate RAM with the discard, they may choose a queue to execute cards from. The turn ends when the player has no more cards in their hand or they choose to end their turn.
 
-At the end of the turn, the player can **import** (take from the deck) any number of cards with total ROM cost equal to or less than the amount of ROM they have obtained this turn. The imported cards go to the discard pile and the unused ROM is lost.
+At the end of the turn, the player can **import** (take from the deck) any number of cards with total ROM cost equal to or less than the amount of ROM they have obtained this turn. The imported cards go to the discard pile and any unused ROM of any player is lost.
 
-Finally, the player draws or discards cards until they have 5 in their hand.
+Finally, the player draws or discards cards until they have 5 in their hand, shuffling their discard pile and drawing from it if their deck is empty and they need to draw cards.
+
+### Using cards in other players turn,
+
+This is the slightly technical part describing what it means to be able to use your cards at any moment.
+
+The game works with priority, meaning that the player whose turn it is has priority to do actions, after they perform an action (using a card or putting a card in the queue), any player in order can perform an action (using a card). There is no response window, meaning that if a player performs an action no player may act until the action is completely resolved.
 
 ### Example of a turn:
 
 Alice has just started the game and has 5 cards in her hand: 4 "DOWNLOAD ROM" and 1 "DOWNLOAD RAM". She puts the "DOWNLOAD RAM" card in her queue first and then 3 "DOWNLOAD ROM" cards.
 
-In that moment Bob discards a "DOWNLOAD ROM" card from his hand to generate 15 RAM, which he uses to execute a "TROJAN HORSE" card, which was the only card on his queue. This card gives him 25 RAM that is immediately lost due to the queue being empty, and is put at the end of Carol's queue due to its queue effect.
+In that moment Bob discards a "DOWNLOAD ROM" card from his hand to generate 3 RAM, which he uses to execute a "TROJAN HORSE" card, which was the only card on his queue. This card gives him 5 RAM that is immediately lost due to the queue being empty, and is put at the end of Carol's queue due to its queue effect.
 
-Alice then discards her last "DOWNLOAD ROM" card to generate 15 RAM. She executes the "DOWNLOAD RAM" card for 5 RAM, which gives her 25 RAM so she has 35 RAM available. Because there is enough RAM available, she executes the first "DOWNLOAD ROM" card for 10 RAM, which gives her 1 ROM. She executes the second "DOWNLOAD ROM" card for 10 RAM, which gives her another ROM. Finally, she executes the last "DOWNLOAD ROM" card for 10 RAM, which gives her a third ROM. She has now executed all cards in her queue and has 5 RAM left which as the upload has ended are lost. 
+Alice then discards her last "DOWNLOAD ROM" card to generate 3 RAM. She executes the "DOWNLOAD RAM" card for 1 RAM, which gives her 5 RAM so she has 7 RAM available. Because there is enough RAM available, she executes the first "DOWNLOAD ROM" card for 2 RAM, which gives her 1 ROM. She executes the second "DOWNLOAD ROM" card for 2 RAM, which gives her another ROM. Finally, she executes the last "DOWNLOAD ROM" card for 2 RAM, which gives her a third ROM. She has now executed all cards in her queue and has 1 RAM left which as the upload has ended are lost. 
 
-She decides to end her turn (as she does't have any more cards to discard or put into the queue) so she uses her 3 ROM to import a "TROJAN HORSE" which she takes from its deck and puts into her discard pile. She then has to draw 5 cards, but her deck only has 3 cards left, so she shuffles her discard pile and draws another 2 cards from it.
+She decides to end her turn (as she doesn't have any more cards to discard or put into the queue) so she uses her 3 ROM to import a "TROJAN HORSE" which she takes from its deck and puts into her discard pile. She then has to draw 5 cards, but her deck only has 3 cards left, so she draws 3 cards, shuffles her discard pile and draws another 2 cards from it.
 
 ## Ending the game
 
