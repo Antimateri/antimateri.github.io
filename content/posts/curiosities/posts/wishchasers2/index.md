@@ -53,9 +53,9 @@ The game needs the following components:
 - 20 1-coin tokens
 - 20 5-coin tokens
 - 18 Wish crystals
-- [A nightmares deck with 50 cards:]({{< fullimg "documents/nightmares.pdf" >}})
+- [A nightmares deck with 59 cards:]({{< fullimg "documents/nightmares.pdf" >}})
   - 5 boss cards
-  - 45 Nightmare cards (15 small / 20 medium / 10 large)
+  - 54 Nightmare cards (18 small / 23 medium / 13 large)
 - [Tiles (the document has some redundancy):]({{< fullimg "documents/tiles.pdf" >}})
   - 10 empty tiles
   - 6 starting tiles (one for each player)
@@ -88,6 +88,7 @@ This section is a glossary of terms used in the rest of the rulebook. Don't worr
 - **Random tile**: Roll 1d8 and 1d10 and add them together. The numbered tile with that number is the chosen one. Only numbered tiles can be chosen randomly, so starting tiles and trap tiles never are. The result is not uniform: middle numbers (9, 10, 11) are much more common than the extremes (2 and 18).
 - **Range**: The number of tiles you would need to move to get from one tile to another. If a tile is adjacent to yours, it is in range 1; a tile adjacent to that one is in range 2, and so on. "Range 0" means the current tile.
 - **Teleportation**: Movement from the origin to the destination without passing through any intermediate tile. The effects of the **destination** tile apply (for example, a trap or a spatial instability), but the effects of the **origin** tile do not (for example, a trap or a nightmare).
+- **Disappearance**: A character who has disappeared can not be affected by any effect nor use any pockets.
 - **Enemy**: Anything able to receive damage, such as Nightmares, bosses, other players, or tokens with life points.
 - **Health**: Each player has maximum health of 10, unless an object changes that. Health can never go above the maximum.
 - **Points**: Collected with 1-point and 5-point tokens. Wish crystals are not points, except when counting the final score.
