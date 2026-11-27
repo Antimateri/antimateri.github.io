@@ -39,6 +39,40 @@ Select 3 control cards and put their decks in a table next to the decks of the 3
 
 Each player starts with 0 control and 1 queue, which starts empty.
 
+### Recommended configurations
+
+EMERGENCY REBOOT and MULTITASKING are always recommended.
+
+For any game, at least one of this cards is recommended:
+- CACHE FETCH
+- GARBAGE COLLECTOR
+- DEFRAGMENTER
+- BUFFER FLASH
+
+When using BRUTE FORCE, at least one of the following cards is recommended:
+- KILL PROCESS
+- SYSTEM CRASH
+
+When using LOOPING DAEMON, at least one of the following cards is recommended: 
+- MEMORY LEAK
+- BULK DOWNLOAD
+- OVERCLOCK
+- VOLTAGE TAP
+- RAM SIPHONING
+And at least one of the following cards are also recommended:
+- KILL PROCESS
+- SYSTEM CRASH
+
+When using DYNAMIC ALGORITHM, SELF-REPLICATION and VOLTAGE TAP are recommended. Also at least one interaction card is recommended. BUFFER FLASH is also recommended if BULK DOWNLOAD is being used.
+
+When using THREAD HIJACKER, KILL PROCESS and at least one of the following cards are recommended:
+- SYSTEM CRASH
+- IMPORT HOOK
+
+When using CHAIN EXPLOIT, at least one interaction card is recommended. Also at least one of the following cards are recommended:
+- KILL PROCESS
+- SYSTEM CRASH
+
 ## The cards
 
 The game is a deckbuilder, as such the cards are the most essential part of the game and it is important for us to understand how they work.
@@ -78,14 +112,14 @@ Now that we know what a card looks like is time for us to see what is this queue
 Every player has (at least) one queue that starts empty, when a player wants to execute a card they must put it in the back of one of their queues. The queue is a first-in-first-out structure, meaning that the first card in the queue is the first one to be executed. In other words, to execute the card in the back of the queue, a player must first execute all the cards in front of it. All cards added to a queue in any circumstance will be placed at the back of the queue.
 
 How do you execute a card? By discarding any number of cards in your hand you usually generate RAM which will execute all cards it can be used to fully pay for in the queue in order, until you reach a card that you cannot pay for or the queue becomes empty. When this happens all remaining RAM will be lost and all executed cards will go to the discard pile. You can think of the RAM as a monster that consumes as much as it can and then disappears, the moment it is generated it will execute all cards it can and then disappear.
-
+saw
 When a card is executed, its "Queue" effect is resolved in order from top to bottom, if an action in the card can not be resolved, any actions below it will not be resolved either. For example, the card "DYNAMIC ALGORITHM" has a "Queue" effect that gives you 20 control, but it also has a "ROM -3" effect. If you do not have enough ROM to pay for the "ROM -3" effect, you will not gain the 20 control.
 
 The process of, given some RAM, executing cards in the queue until it is no longer possible is called an "upload".
 
 ### Player Turns
 
-So, how does a player turn goes? At the beginning of a player's turn if any of their queues is not empty, the first card of the queue of their choice is executed for free. Then the player can add any number of cards to the deck until their turn is over. At any point, during their turn or any other player's turn, they may discard any number of cards to use their actions, if they generate RAM with the discard, they may choose a queue to execute cards from. The turn ends when the player has no more cards in their hand or they choose to end their turn.
+So, how does a player turn goes? At the beginning of a player's turn if any of their queues is not empty, the first card of all of their non-empty queues is executed for free as if the exact RAM needed to activate it had been generated (if the card were to generate RAM the following cards may be executed as per usual). Then the player can add any number of cards to one of their queues until their turn is over. At any point, during their turn or any other player's turn, they may discard any number of cards to use their actions, if they generate RAM with the discard, they may choose a queue to execute cards from. The turn ends when the player has no more cards in their hand or they choose to end their turn.
 
 At the end of the turn, the player can **import** (take from the deck) any number of cards with total ROM cost equal to or less than the amount of ROM they have obtained this turn. The imported cards go to the discard pile and any unused ROM of any player is lost.
 
